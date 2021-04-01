@@ -1,45 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# South Coast SUP
+___
 
-Welcome USER_NAME,
+## Project Synopsis
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+Stand-up paddleboard club based on the south coast with the goal of providing information and connecting local surfers and stand up paddleboarders. 
+Will have details of regular meet-ups, information on the local area and the ability to sign up to a newsletter. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[See the live site here!](https://timmorrisdev.github.io/south-coast-sup/)
 
-`python3 -m http.server`
+___
+## User Experience (UX)
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+- First time user goals
+    - As a first time user, I want to easily gain information about the local paddleboard community.
+    - As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
+    - As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
+    - As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Second time user goals
+    - As a returning user, I want to be able to connect with the clubs social media pages.
+    - As a returning user, I want up-to-date information about weather and water conditions.
 
-A blue button should appear to click: *Make Public*,
+- Frequent user goals
+    - As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
 
-Another blue button should appear to click: *Open Browser*.
+### Design
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Colour Scheme
+    - Blues and dusky greys, sunset orange details. Soft greens when appropriate for imagery. [View colour palette](/workspace/south-coast-sup/assets/images/SurfSUP3.png)
+    - Light grey text with white hover.
 
-## Updates Since The Instructional Video
+- Fonts
+    - Montserrat / Lato / Quicksand
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Wireframes
+___
+## Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+___
+## Technologies Used
+### Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Frameworks, Libraries & Programs Used
+- Bootstrap
+- jQuery
+- Google Fonts
+- Font Awesome
+- Hover.css 
+- Git
+- Github
+- Balsamiq
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+___
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+___
+## Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+___
+## Credits
+### Code
+### Content
+### Media
