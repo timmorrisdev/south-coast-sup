@@ -30,7 +30,7 @@ ___
 ### Design
 
 - Colour Scheme
-    - Blues and dusky greys, sunset orange details. Soft greens when appropriate for imagery. [View colour palette](/workspace/south-coast-sup/assets/images/SurfSUP3.png)
+    - Blues and dusky greys, sunset orange details. Soft greens when appropriate for imagery. [View colour palette](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/images/SurfSUP3.png)
     - Light grey text with white hover.
 
 - Fonts
