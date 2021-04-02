@@ -27,6 +27,17 @@ ___
 - Frequent user goals
     - As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
 
+### Business goals
+
+- Immediate
+    - To create a paddlebaord community and provide information.
+    - To gain subscriptions to the newsletter.
+    - To attract people to take part in organised events, both paid and free.
+
+- Future goals
+    - To gain sponsorship  from local business and paddleboard brands.
+    - To drive up social media followers and engagement to both build the club visibility and attract partnerships with brands. 
+
 ### Design
 
 - Colour Scheme
