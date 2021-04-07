@@ -1,7 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
     background-color: #1f487e;
     color: #aeadad;
+}
+
+div, nav, footer {
+    border: 1px solid black ;
+} */
+
+.callout-container {
+  background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
