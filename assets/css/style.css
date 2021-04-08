@@ -4,9 +4,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* .bg-dark {
-  opacity: 80%;
-} */
+.navbar {
+  background-color: #0c1b31;
+  opacity: 90%;
+}
 
 .landing-container {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
@@ -20,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 .footer {
@@ -30,4 +32,5 @@ body {
   background-color: #aeadad;
   color: black;
   text-align: center;
+  padding: 15px;
 }
