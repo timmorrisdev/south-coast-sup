@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
-/* body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #1f487e;
-    color: #aeadad;
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-div, nav, footer {
-    border: 1px solid black ;
+/* .bg-dark {
+  opacity: 80%;
 } */
 
-.callout-container {
+.landing-container {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
     center center fixed;
   -webkit-background-size: cover;
@@ -18,4 +16,18 @@ div, nav, footer {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #aeadad;
+  color: black;
+  text-align: center;
 }
