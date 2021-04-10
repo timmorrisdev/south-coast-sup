@@ -4,25 +4,48 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/*------------------------------------------------Navbar */
+
 .navbar {
   background-color: rgba(12, 28, 49, 0.9);
   /* opacity: 90%; */
+  text-align: center;
 }
 
+/*------------------------------------------------Main containers */
+
 .landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.why-container {
+}
+
+.where-container {
+}
+
+.about-container {
+}
+
+.events-container {
+}
+
+.bg-image-container {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
     center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
+  position: absolute;
 }
+
+/*------------------------------------------------Jumbotrons */
 
 .jumbotron {
   margin-left: 1rem;
@@ -33,6 +56,29 @@ body {
   text-shadow: 2px 2px black;
   padding: 4rem 4rem;
 }
+
+.landing-jumbotron {
+}
+
+.why-jumbotron {
+}
+
+.events-jumbotron {
+}
+
+/*------------------------------------------------Cards */
+
+.card {
+  background-color: rgba(12, 28, 49, 0.8);
+  color: #e2e2e2;
+  border-radius: 3rem;
+}
+
+.card iframe {
+  border-radius: 1rem;
+}
+
+/*------------------------------------------------Footer */
 
 .footer {
   position: fixed;
