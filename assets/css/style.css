@@ -20,8 +20,8 @@ body {
   padding-left: 15px;
 }
 
-.collapsing,
-.show {
+nav .collapsing,
+nav .show {
   background-color: rgba(12, 28, 49, 1);
   border-radius: 30px 30px 0 0;
 }
@@ -114,6 +114,30 @@ body {
   width: 100%;
   background-size: contain;
 } */
+
+/*------------------------------------------------Newsletter signup form */
+
+.newsletter-signup-section {
+  padding: 30px;
+  background-color: rgba(12, 28, 49, 0.8);
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+}
+
+/*------------------------------------------------Modals */
+
+.modal-section .show,
+.modal-section .fade {
+  background-color: rgba(12, 28, 49, 0.5);
+}
+
+.event-modal {
+  background-color: rgba(12, 28, 49, 0.8);
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px #e2e2e2;
+}
 
 /*------------------------------------------------Footer */
 
