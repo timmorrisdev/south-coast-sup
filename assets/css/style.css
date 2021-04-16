@@ -12,6 +12,12 @@ body {
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
+  padding-left: 15px;
+}
+
+.navbar-nav {
+  /* margin-left: auto; */
+  padding-left: 15px;
 }
 
 .collapsing,
@@ -44,6 +50,9 @@ body {
 }
 
 .events-container {
+}
+
+.signup-container {
 }
 
 .bg-image-container {
