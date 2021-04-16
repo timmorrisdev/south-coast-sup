@@ -92,7 +92,7 @@
                                 allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="card-body text-center">
-                            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#eventModal1">
+                            <button type="button" class="btn btn-signup" data-toggle="modal" data-target="#eventModal1">
                                 Register for event 1
                             </button>
                         </div>
@@ -111,7 +111,7 @@
                                 allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="card-body text-center">
-                            <a href="#" class="btn btn-light">Register - modal</a>
+                            <a href="#" class="btn btn-signup">Register - modal</a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                                 allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="card-body text-center">
-                            <a href="#" class="btn btn-light">Register - modal</a>
+                            <a href="#" class="btn btn-signup">Register - modal</a>
                         </div>
                     </div>
                 </div>
@@ -150,43 +150,36 @@
                     <div class="modal-body">
                         <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-signup-form">
 
-                            <div class="form-row">
-                                <div class="col">
+                            <div class="form-row p-1">
+                                <div class="col-12 col-md">
                                     <input type="text" class="form-control" placeholder="First name">
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-md">
                                     <input type="text" class="form-control" placeholder="Last name">
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="form-row p-1">
                                 <div class="col">
-                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <label for="exampleFormControlInput1" hidden>Email address</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="name@example.com">
+                                        placeholder="Email: name@example.com">
                                 </div>
                             </div>
-                            <div class="form-row">
+                            <div class="form-row p-1">
                                 <div class="col">
-                                    <label for="exampleFormControlSelect1">Experience Level</label>
+                                    <label for="exampleFormControlSelect1" hidden>Experience Level</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
+                                        <option disabled selected>Select Experience Level</option>
                                         <option>Beginner</option>
                                         <option>Intermediate</option>
                                         <option>Advanced</option>
                                     </select>
                                 </div>
                             </div>
-
-
-                            <!-- <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </div>
-                        </div> -->
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="submit" class="btn btn-primary btn-signup">Register</button>
                     </div>
                 </div>
             </div>

@@ -84,7 +84,7 @@
 
                 <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-signup-form">
 
-                    <div class="form-row">
+                    <div class="form-row signup-form-item">
                         <div class="col">
                             <input type="text" class="form-control" placeholder="First name">
                         </div>
@@ -92,66 +92,71 @@
                             <input type="text" class="form-control" placeholder="Last name">
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div class="form-row signup-form-item">
                         <div class="col">
-                            <label for="exampleFormControlInput1">Email address</label>
+                            <label for="exampleFormControlInput1" hidden>Email address</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
+                                placeholder="Email: name@example.com">
                         </div>
                     </div>
-                    <div class="form-row">
-                        <div class="col">
-                            <label for="exampleFormControlSelect1">Experience Level</label>
+                    <div class="form-row signup-form-item">
+                        <div class="col col-lg-6">
+                            <label for="exampleFormControlSelect1" hidden>Experience Level</label>
                             <select class="form-control" id="exampleFormControlSelect1">
+                                <option disabled selected>Select Experience Level</option>
                                 <option>Beginner</option>
                                 <option>Intermediate</option>
                                 <option>Advanced</option>
                             </select>
                         </div>
                     </div>
-
-                    <label for="interests-checkbox">What club activities are you intersted in?</label>
-                    <div class="interests-checkbox" id="interests-checkbox">
-                        <div class="form-row">
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" value="" id="interestCheck1">
-                                <label class="form-check-label" for="interestCheck1">
-                                    Interest 1
-                                </label>
+                    <div class="signup-form-item club-interests-container">
+                        <label for="interests-checkbox"><strong>What club activities are you intersted
+                                in?</strong></label>
+                        <div class="interests-checkbox" id="interests-checkbox">
+                            <div class="form-row">
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" value="" id="interestCheck1">
+                                    <label class="form-check-label" for="interestCheck1">
+                                        Interest 1
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" value="" id="interestCheck2">
+                                    <label class="form-check-label" for="interestCheck2">
+                                        Interest 2
+                                    </label>
+                                </div>
                             </div>
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" value="" id="interestCheck2">
-                                <label class="form-check-label" for="interestCheck2">
-                                    Interest 2
-                                </label>
+                            <div class="form-row">
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" value="" id="interestCheck3">
+                                    <label class="form-check-label" for="interestCheck3">
+                                        Interest 3
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" value="" id="interestCheck4">
+                                    <label class="form-check-label" for="interestCheck4">
+                                        Interest 4
+                                    </label>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" value="" id="interestCheck3">
-                                <label class="form-check-label" for="interestCheck3">
-                                    Interest 3
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" value="" id="interestCheck4">
-                                <label class="form-check-label" for="interestCheck4">
-                                    Interest 4
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col">
-                            <label for="exampleFormControlTextarea1">Anything else you'd like to tell us?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
 
-                    <div class="form-row text-center">
+                    <div class="form-row signup-form-item signup-comments-container">
                         <div class="col">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <label for="signupFormComments"><strong>Anything else you'd like to tell
+                                    us?</strong></label>
+                            <textarea class="form-control" id="signupFormComments" rows="3"
+                                placeholder="Add comments here"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row text-center signup-form-item">
+                        <div class="col">
+                            <button type="submit" class="btn btn-signup">Submit</button>
                         </div>
                     </div>
                 </form>

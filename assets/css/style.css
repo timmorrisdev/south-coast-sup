@@ -76,7 +76,7 @@ nav .show {
   margin-bottom: 50px;
   border-radius: 5rem;
   background-color: rgba(12, 28, 49, 0.8);
-  color: #e2e2e2;
+  color: #fff;
   text-shadow: 2px 2px black;
   padding: 15px 15px;
   border: solid 3px rgba(12, 28, 49, 1);
@@ -125,6 +125,39 @@ nav .show {
   border: solid 3px rgba(12, 28, 49, 1);
 }
 
+.signup-form-item {
+  margin: 15px;
+}
+
+.club-interests-container {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+}
+
+.signup-comments-container {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.signup-comments-container .col {
+  padding: 0;
+}
+
+.signup-comments-container label {
+  margin: 0.375rem 0.75rem 0.375rem 0.75rem;
+}
+
+.signup-comments-container textarea {
+  border-radius: 0 0 0.25rem 0.25rem;
+  /* padding: 0; */
+}
+
+.form-control {
+  /* background-color: #e2e2e2;
+  color: black; */
+}
+
 /*------------------------------------------------Modals */
 
 .modal-section .show,
@@ -137,6 +170,38 @@ nav .show {
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px #e2e2e2;
+}
+
+/*------------------------------------------------ Colours */
+
+.bg-color__sunset {
+  background-color: #d64a24;
+}
+
+.border-color__sunset {
+  border-color: #d64a24;
+}
+
+.bg-color__blue-opaque {
+  background-color: rgba(12, 28, 49, 0.8);
+}
+
+.bg-color__blue-solid {
+  background-color: rgba(12, 28, 49, 1);
+}
+
+/*------------------------------------------------ Buttons */
+
+.btn-signup {
+  background-color: #d64a24;
+  border-color: rgba(12, 28, 49, 1);
+  color: #fff;
+}
+
+.btn-signup:hover {
+  background-color: #fe9f5f;
+  border-color: rgba(12, 28, 49, 1);
+  color: rgba(12, 28, 49, 1);
 }
 
 /*------------------------------------------------Footer */
