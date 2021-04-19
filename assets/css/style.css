@@ -68,9 +68,10 @@ nav .show {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: auto;
   padding: 0;
   position: absolute;
+  /* top: 0;
+  left: 0; */
   padding-bottom: 100px;
 }
 
