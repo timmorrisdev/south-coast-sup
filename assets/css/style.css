@@ -8,7 +8,6 @@ body {
 
 .navbar {
   background-color: rgba(12, 28, 49, 0.9);
-  /* opacity: 90%; */
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
@@ -64,15 +63,14 @@ nav .show {
 .bg-image-container {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
     center center fixed;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   padding: 0;
   position: absolute;
-  /* top: 0;
-  left: 0; */
   padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 /*------------------------------------------------Jumbotrons */
