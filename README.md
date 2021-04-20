@@ -27,7 +27,7 @@ ___
 - Frequent user goals
     - As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
 
-### Business goals
+### Business Goals
 
 - Immediate
     - To create a paddlebaord community and provide information.
@@ -48,8 +48,12 @@ ___
     - Montserrat / Lato / Quicksand
 
 - Wireframes
+
 ___
 ## Features
+- Responsive across all devices and screen sizes.
+- Adaptive to modify content shown to be appropriate for user device or screen size.
+- Have appropraite, real-time information for the user.
 
 
 ___
@@ -59,23 +63,45 @@ ___
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries & Programs Used
-- Bootstrap
-- jQuery
-- Google Fonts
-- Font Awesome
-- Hover.css 
-- Git
-- Github
-- Balsamiq
+- [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used for the responsive 'grid'. Code snippets from the Bootstrap documentation were used in various places and modified to suit the purpose and design of the site.
+- [jQuery](https://jquery.com/)
+    - jQuery came as part of Bootstrap and was used for Javascript plugins such as the responsive nav bar and modals.
+- [Google Fonts](https://fonts.google.com/)
+    - Google Fonts was used to import the 'Montserrat', 'Lato' and 'Quicksand' fonts, which were used throughout the site.
+- [Font Awesome](https://fontawesome.com/)
+- [Hover.css](https://ianlunn.github.io/Hover/)
+    - Hover.css was used in the nav bar to animate the menu items.
+- [Git](https://git-scm.com/)
+    - Git was used for version control using the terminal in Gitpod to 'add' and 'commit' to Git and to push changes to the GitHub reposotory using 'git push'.
+
+- [Gitpod](https://gitpod.io/)
+    - Gitpod.io was used as the primary development environment when coding for the site. It's terminal was used to preview the site via temporary server, and for version control using Git commands.
+- [Github](https://github.com/)
+    - GitHub was used to store the code pushed from Gitpod and as deployment for the [published site.](https://timmorrisdev.github.io/south-coast-sup/)
+- [Balsamiq](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes for the site while in the 'skeleton' stage of my UX process.
 
 ___
 ## Testing
 
 ___
 ## Deployment
+### GitHub Pages
+The project was deployed to GitHub pages using the following method. 
+1. Log in to [GitHub.com](https://github.com/) and locate the south-coast-sup reposotory in my account.
+2. Selct the repo 'settings' menu and navigate to the 'pages' tab on the left hand side.
+3. In the 'source' section, select the master branch as the source for the site deployemnt. 
+4. Hit 'save' and wait a few mins for GitHub to process. The 'pages' settings tab will now show a message to confirm the reposotory is being published to the address https://timmorrisdev.github.io/south-coast-sup/.
 
+### Making a Local Clone
 ___
 ## Credits
 ### Code
+- Bootstrap nav bar, card, signup form, modal and button template code used in places and modified to suit purpose of the site.
+- [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/) article inspiration for 'min-height' solution to background image display issues on index.html.
 ### Content
+- All content written by the developer.
 ### Media
+- Main background image by [Sebastian Voortman](https://www.pexels.com/photo/man-and-woman-boat-rowing-in-sea-during-golden-hour-165505/) found on Pexels.com.
+
