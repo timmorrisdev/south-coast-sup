@@ -2,6 +2,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 /*------------------------------------------------Navbar */
@@ -81,7 +82,7 @@ nav .show {
   margin-top: 100px;
   margin-bottom: 50px;
   border-radius: 5rem;
-  background-color: rgba(12, 28, 49, 0.8);
+  background-color: rgba(12, 28, 49, 0.9);
   color: #fff;
   text-shadow: 2px 2px black;
   padding: 15px 15px;
@@ -100,28 +101,23 @@ nav .show {
 /*------------------------------------------------Cards */
 
 .card {
-  background-color: rgba(12, 28, 49, 0.8);
+  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
   overflow: hidden;
   margin-bottom: 1.5rem;
+  max-height: 500px;
+  overflow: scroll;
 }
 
 .card iframe {
   border-radius: 1rem;
-  /* margin-bottom: 1rem; */
 }
 
-.about-img-container {
-  max-height: 50%;
+.about-card img {
+  max-height: 250px;
 }
-
-/* .card img {
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-} */
 
 /*------------------------------------------------Newsletter signup form */
 
@@ -159,11 +155,6 @@ nav .show {
 .signup-comments-container textarea {
   border-radius: 0 0 0.25rem 0.25rem;
 } */
-
-.form-control {
-  /* background-color: #e2e2e2;
-  color: black; */
-}
 
 .newsletter-signup-section .btn-signup {
   margin-top: 1.25rem;
@@ -211,6 +202,11 @@ nav .show {
   background-color: #d64a24;
   border-color: rgba(12, 28, 49, 1);
   color: #fff;
+  /*------------------------------------------------ Transition copied from resume project and modified */
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
 
 .btn-signup:hover,
@@ -230,14 +226,33 @@ nav .show {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(12, 28, 49, 0.8);
+  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   text-align: center;
   padding: 15px;
+  /* min-height: 150px; */
+}
+
+.footer-content {
+  margin: auto;
 }
 
 .social-links a i {
+  color: #c0c0c0;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  /* line-height: 7px; */
+  text-align: center;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links a i:hover {
   color: #fff;
+  font-style: 3rem;
 }
 
 /*------------------------------------------------Hover.css */
@@ -259,24 +274,7 @@ nav .show {
 }
 
 @media only screen and (min-width: 992px) {
-  /* .about-card {
-    max-width: 50%;
-    margin: 0;
-  } */
-
-  /* .about-card ~ .card-body {
-    width: 100%;
-  } */
-
-  /* .about-card .row {
-    display: inline;
-  } */
-  /* .card-content-clear {
-    clear: both;
-    width: 100%;
-  } */
-
-  .bg-image-container {
+  /* .bg-image-container {
     height: 100%;
-  }
+  } */
 }
