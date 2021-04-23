@@ -50,6 +50,11 @@ nav .show {
 /*------------------------------------------------Main containers */
 
 .landing-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .why-container {
@@ -80,7 +85,7 @@ nav .show {
   -moz-background-size: cover;
   -o-background-size: cover;
   padding: 0;
-  position: absolute;
+  position: relative;
   padding-bottom: 100px;
   min-height: 100vh;
 }
@@ -98,6 +103,10 @@ nav .show {
   text-shadow: 2px 2px black;
   padding: 15px 15px;
   border: solid 3px rgba(12, 28, 49, 1);
+}
+
+.jumbotron p {
+  color: #e2e2e2;
 }
 
 .landing-jumbotron {
@@ -244,7 +253,7 @@ nav .show {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(12, 28, 49, 0.7);
+  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   text-align: center;
   padding-top: 0px;
