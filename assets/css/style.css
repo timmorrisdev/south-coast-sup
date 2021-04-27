@@ -120,15 +120,26 @@ nav .show {
   border: solid 3px rgba(12, 28, 49, 1);
   overflow: hidden;
   margin-bottom: 1.5rem;
-  max-height: 500px;
+  /* max-height: 500px; */
   padding-bottom: 12px;
 
   /* overflow: scroll; */
 }
 
+.card hr {
+  color: #e2e2e2;
+  border: #e2e2e2 solid 1px;
+}
+
 .card iframe {
   border-radius: 1rem;
 }
+
+.card-body {
+  padding-bottom: 0px;
+}
+
+/*------------------------------------------------about.html Cards */
 
 .about-card-container {
   height: 250px;
@@ -140,9 +151,15 @@ nav .show {
   object-position: center center;
 }
 
+#about-img1 {
+  object-position: 100% 20%;
+}
+
 #about-img2 {
   object-position: 100% 60%;
 }
+
+/*------------------------------------------------why.html Cards */
 
 .why-card {
   height: 350px;
@@ -157,6 +174,33 @@ nav .show {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+/*------------------------------------------------where.html Cards */
+
+.where-card {
+  height: 500px;
+}
+
+.where-card-container {
+  height: 250px;
+}
+
+.where-card-text {
+  height: 200px;
+  overflow: scroll;
+  border: #c0c0c0 solid 1px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.where-nav-container {
+  height: 500px;
+  background-color: rgba(12, 28, 49, 0.9);
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+  padding: 15px;
 }
 
 /*------------------------------------------------Newsletter signup form */
