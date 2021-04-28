@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 body {
@@ -58,9 +65,6 @@ nav .show {
 .bg-image-container {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
     center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   display: block;
   left: 0;
@@ -157,16 +161,20 @@ nav .show {
 
 .about-card img {
   height: 100%;
-  object-fit: cover;
-  object-position: center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 
 #about-img1 {
-  object-position: 100% 20%;
+  -o-object-position: 100% 20%;
+     object-position: 100% 20%;
 }
 
 #about-img2 {
-  object-position: 100% 60%;
+  -o-object-position: 100% 60%;
+     object-position: 100% 60%;
 }
 
 /*------------------------------------------------why.html section */
@@ -365,8 +373,12 @@ nav .show {
 
 .footer-container {
   height: 100%;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer-container a i {
@@ -418,7 +430,8 @@ nav .show {
   background-color: #fe9f5f;
   border-color: rgba(12, 28, 49, 1);
   color: rgba(12, 28, 49, 1);
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /*------------------------------------------------ Colours */
