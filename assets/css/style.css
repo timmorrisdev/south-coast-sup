@@ -201,6 +201,30 @@ nav .show {
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
   padding: 15px;
+  overflow: hidden;
+}
+
+.tab-content {
+  padding-top: 10px;
+}
+
+.where-tab-row {
+  height: 370px;
+  overflow: scroll;
+}
+
+.tab-content h3 {
+  text-align: center;
+}
+
+.tab-content iframe {
+  width: 80%;
+  height: 40%;
+  margin-top: 5%;
+}
+
+.where-nav-container br {
+  margin-bottom: 2rem;
 }
 
 /*------------------------------------------------Newsletter signup form */
