@@ -340,6 +340,12 @@ nav .show {
   margin: 0 auto;
 }
 
+#eventSunset,
+#eventAdur,
+#eventOuse {
+  padding-top: 70px;
+}
+
 /*------------------------------------------------Footer */
 
 .footer {
@@ -459,6 +465,11 @@ nav .show {
   }
   #eventNav {
     display: none;
+  }
+  #eventSunset,
+  #eventAdur,
+  #eventOuse {
+    padding-top: 0px;
   }
 }
 
