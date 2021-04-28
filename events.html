@@ -61,24 +61,46 @@
         <div class="container events-container">
             <div class="jumbotron text-center events-jumbotron">
                 <h1>Club Events</h1>
-                <p class="d-none d-md-block">Participate and feel grrrrrrrreat</p>
+                <!-- <p class="d-none d-md-block">Participate and feel grrrrrrrreat</p> -->
+                <nav id="eventNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#eventSunset">Sunset Sea Paddle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#eventAdur">Up and Down the Adur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-underline-from-center" href="#eventOuse">Dry Land Drink</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
             </div>
 
             <!------------------------------------------------ Card copied from bootstrap documentation and modified -->
 
             <div class="row three-cards-row">
-                <div class="col-12 col-lg-4 three-cards-col event-card">
-                    <div class="card">
+                <div class="col-12 col-lg-4 three-cards-col">
+                    <div class="card event-card" id="eventSunset">
                         <div class="card-body row pb-0">
                             <div class="col-12 col-md-6 col-lg-12 mb-3 mb-md-0 md-lg-3">
                                 <h5 class="card-title text-center">Sunset Sea Paddle</h5>
-                                <p class="card-text">Location: Hove Seafront</p>
-                                <p class="card-text">Day: Wednesday</p>
-                                <p class="card-text">Time: 8.00pm</p>
-                                <p class="card-text">Details: Meet beach-side of Hove lagoon at 8pm for a relaxed paddle
-                                    on the sea to enjoy the golden hour from an incredible vantage point. More advanced
-                                    participants have the option of paddling to the West Pier to witness the stunning
-                                    starling murmurations before returning to watch the sun go down.</p>
+                                <p class="card-text text-center"><strong>Where:</strong> Hove Seafront</p>
+                                <p class="card-text text-center"><strong>When:</strong> Wednesday @ 8pm</p>
+
+                                <div class="event-detail-container">
+                                    <p class="card-text"><strong>Details:</strong> Meet beach-side of Hove lagoon at 8pm
+                                        for a relaxed paddle on the sea to enjoy the golden hour from an incredible
+                                        vantage point.
+                                        <br>
+                                        More
+                                        advanced participants have the option of paddling to the West Pier to witness
+                                        the
+                                        stunning starling murmurations before returning to watch the sun go down.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12 mt-md-4">
                                 <iframe
@@ -86,26 +108,38 @@
                                     allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
-                        <div class="card-body text-center">
-                            <button type="button" class="btn btn-signup" data-toggle="modal" data-target="#eventModal1">
-                                Register for event 1
-                            </button>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-body text-center">
+                                    <button type="button" class="btn btn-signup" data-toggle="modal"
+                                        data-target="#eventModal1">
+                                        Register for event 1
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 three-cards-col event-card">
-                    <div class="card">
+                <div class="col-12 col-lg-4 three-cards-col">
+                    <div class="card event-card" id="eventAdur">
                         <div class="card-body row pb-0">
                             <div class="col-12 col-md-6 col-lg-12 mb-3 mb-md-0 md-lg-3">
                                 <h5 class="card-title text-center">Up and Down the Adur</h5>
-                                <p class="card-text">Location: Coombes Road car park</p>
-                                <p class="card-text">Day: Sunday</p>
-                                <p class="card-text">Time: 3.00pm</p>
-                                <p class="card-text">Details: A paddle up-river as far Upper Beeding and back again.
-                                    Meet at carpark on Ladywell corner, about half a mile North on Coombes Road from the
-                                    A27. Please allow time to be ready to launch promptly at 3pm in order to reach Upper
-                                    Beeding for the slack-tide and catch the outgoing tide back down-river.</p>
+                                <p class="card-text"><strong>Where:</strong> Coombes Road car park</p>
+                                <p class="card-text"><strong>When:</strong> Sunday @ 3pm</p>
+                                <div class="event-detail-container">
+                                    <p class="card-text">Details: A paddle up-river as far Upper Beeding and back again.
+                                        <br>
+                                        Meet at carpark on Ladywell corner, about half a mile North on Coombes Road from
+                                        the
+                                        A27.
+                                        <br>
+                                        Please allow time to be ready to launch promptly at 3pm in order to reach
+                                        Upper
+                                        Beeding for the slack-tide and catch the outgoing tide back down-river.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12 mt-md-4">
                                 <iframe
@@ -113,23 +147,34 @@
                                     allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
-                        <div class="card-body text-center">
-                            <a href="#" class="btn btn-signup">Register - modal</a>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-body text-center">
+                                    <a href="#" class="btn btn-signup">Register - modal</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-4 three-cards-col event-card">
-                    <div class="card">
+                <div class="col-12 col-lg-4 three-cards-col">
+                    <div class="card event-card" id="eventOuse">
                         <div class="card-body row pb-0">
                             <div class="col-12 col-md-6 col-lg-12 mb-3 mb-md-0 md-lg-3">
                                 <h5 class="card-title text-center">Dry Land Drink</h5>
-                                <p class="card-text">Location: Rockwater Hove</p>
-                                <p class="card-text">Day: Friday</p>
-                                <p class="card-text">Time: 7.00pm</p>
-                                <p class="card-text">Details: A friendly meet up at Rockwater Hove. Take the opportunity
-                                    to meet other SUP lovers, exchange routes and tips, and enjoy a drink while the sun
-                                    goes down over the English channel.</p>
+                                <p class="card-text"><strong>Where:</strong> Rockwater Hove</p>
+                                <p class="card-text"><strong>When:</strong> Friday @ 7pm</p>
+                                <div class="event-detail-container">
+                                    <p class="card-text">Details: A friendly meet up at Rockwater Hove.
+                                        <br>
+                                        Take the
+                                        opportunity
+                                        to meet other SUP lovers, exchange routes and tips, and enjoy a drink
+                                        while the
+                                        sun
+                                        goes down over the English channel.
+                                    </p>
+                                </div>
                             </div>
                             <div class="col-12 col-md-6 col-lg-12 mt-md-4">
                                 <iframe
@@ -137,8 +182,12 @@
                                     allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
-                        <div class="card-body text-center">
-                            <a href="#" class="btn btn-signup">Register - modal</a>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card-body text-center">
+                                    <a href="#" class="btn btn-signup">Register - modal</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -163,7 +212,6 @@
 
                         <div class="modal-body">
 
-
                             <div class="form-row p-1">
                                 <div class="col-12 col-md mb-2 mb-md-0">
                                     <input type="text" class="form-control" placeholder="First name" name="first_name">
@@ -185,7 +233,8 @@
                                     <select class="form-control" id="eventExperience" name="experience_level">
                                         <option disabled selected>Select Experience Level</option>
                                         <option name="experience_level" value="beginner">Beginner</option>
-                                        <option name="experience_level" value="intermediate">Intermediate</option>
+                                        <option name="experience_level" value="intermediate">Intermediate
+                                        </option>
                                         <option name="experience_level" value="advanced">Advanced</option>
                                     </select>
                                 </div>
