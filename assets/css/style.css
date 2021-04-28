@@ -162,19 +162,19 @@ nav .show {
 .about-card img {
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
 }
 
 #about-img1 {
   -o-object-position: 100% 20%;
-     object-position: 100% 20%;
+  object-position: 100% 20%;
 }
 
 #about-img2 {
   -o-object-position: 100% 60%;
-     object-position: 100% 60%;
+  object-position: 100% 60%;
 }
 
 /*------------------------------------------------why.html section */
@@ -354,6 +354,10 @@ nav .show {
   padding-top: 70px;
 }
 
+.modal-section span {
+  color: #c0c0c0;
+}
+
 /*------------------------------------------------Footer */
 
 .footer {
@@ -374,11 +378,11 @@ nav .show {
 .footer-container {
   height: 100%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-container a i {
@@ -431,7 +435,7 @@ nav .show {
   border-color: rgba(12, 28, 49, 1);
   color: rgba(12, 28, 49, 1);
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 /*------------------------------------------------ Colours */
