@@ -62,7 +62,12 @@
             <div class="jumbotron text-center events-jumbotron">
                 <h1>Club Events</h1>
                 <!-- <p class="d-none d-md-block">Participate and feel grrrrrrrreat</p> -->
+
+            </div>
+
+            <div class="container event-nav-container">
                 <nav id="eventNav">
+                    <h3>Select Event</h3>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link hvr-underline-from-center" href="#eventSunset">Sunset Sea Paddle</a>
@@ -74,10 +79,9 @@
                             <a class="nav-link hvr-underline-from-center" href="#eventOuse">Dry Land Drink</a>
                         </li>
                     </ul>
-
                 </nav>
-
             </div>
+
 
             <!------------------------------------------------ Card copied from bootstrap documentation and modified -->
 
@@ -115,8 +119,8 @@
                                 <div class="col-12">
                                     <div class="card-body text-center">
                                         <button type="button" class="btn btn-signup" data-toggle="modal"
-                                            data-target="#eventModal1">
-                                            Register for event 1
+                                            data-target="#event1Modal">
+                                            Register for event
                                         </button>
                                     </div>
                                 </div>
@@ -157,7 +161,10 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card-body text-center">
-                                        <a href="#" class="btn btn-signup">Register - modal</a>
+                                        <button type="button" class="btn btn-signup" data-toggle="modal"
+                                            data-target="#event2Modal">
+                                            Register for event
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +201,10 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="card-body text-center">
-                                        <a href="#" class="btn btn-signup">Register - modal</a>
+                                        <button type="button" class="btn btn-signup" data-toggle="modal"
+                                            data-target="#event3Modal">
+                                            Register for event
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -208,14 +218,18 @@
     <!------------------------------------------------ event modals -->
 
     <div class="modal-section">
-        <div class="modal fade" id="eventModal1" tabindex="-1" aria-labelledby="eventModalLabel1" aria-hidden="true">
+
+        <div class="modal fade" id="event1Modal" tabindex="-1" aria-labelledby="eventModalLabel1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content event-modal">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Event 1</h5>
+                        <div class="modal-header-container">
+                            <h5 class="modal-title text-center">Sunset Sea Paddle</h5>
+                        </div>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
+
                     </div>
 
                     <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-signup-form">
@@ -232,15 +246,15 @@
                             </div>
                             <div class="form-row p-1">
                                 <div class="col">
-                                    <label for="eventEmail" hidden>Email address</label>
-                                    <input type="email" class="form-control" id="eventEmail"
+                                    <label for="event1Email" hidden>Email address</label>
+                                    <input type="email" class="form-control" id="event1Email"
                                         placeholder="Email: name@example.com" name="email_address">
                                 </div>
                             </div>
                             <div class="form-row p-1">
                                 <div class="col">
-                                    <label for="eventExperience" hidden>Experience Level</label>
-                                    <select class="form-control" id="eventExperience" name="experience_level">
+                                    <label for="event1Experience" hidden>Experience Level</label>
+                                    <select class="form-control" id="event1Experience" name="experience_level">
                                         <option disabled selected>Select Experience Level</option>
                                         <option name="experience_level" value="beginner">Beginner</option>
                                         <option name="experience_level" value="intermediate">Intermediate
@@ -251,8 +265,8 @@
                             </div>
                             <div class="form-row p-1">
                                 <div class="col">
-                                    <label for="eventNumber" hidden>Number of people</label>
-                                    <select class="form-control" id="eventNumber" name="number_of_attendees">
+                                    <label for="event1Number" hidden>Number of people</label>
+                                    <select class="form-control" id="event1Number" name="number_of_attendees">
                                         <option disabled selected>Number of attendees</option>
                                         <option name="number_of_attendees" value="1">1</option>
                                         <option name="number_of_attendees" value="2">2</option>
@@ -272,6 +286,143 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="event2Modal" tabindex="-1" aria-labelledby="eventModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content event-modal">
+                    <div class="modal-header">
+                        <div class="modal-header-container">
+                            <h5 class="modal-title text-center">Up and Down the Adur</h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-signup-form">
+
+                        <div class="modal-body">
+
+                            <div class="form-row p-1">
+                                <div class="col-12 col-md mb-2 mb-md-0">
+                                    <input type="text" class="form-control" placeholder="First name" name="first_name">
+                                </div>
+                                <div class="col-12 col-md">
+                                    <input type="text" class="form-control" placeholder="Last name" name="last_name">
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event2Email" hidden>Email address</label>
+                                    <input type="email" class="form-control" id="event2Email"
+                                        placeholder="Email: name@example.com" name="email_address">
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event2Experience" hidden>Experience Level</label>
+                                    <select class="form-control" id="event2Experience" name="experience_level">
+                                        <option disabled selected>Select Experience Level</option>
+                                        <option name="experience_level" value="beginner">Beginner</option>
+                                        <option name="experience_level" value="intermediate">Intermediate
+                                        </option>
+                                        <option name="experience_level" value="advanced">Advanced</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event2Number" hidden>Number of people</label>
+                                    <select class="form-control" id="event2Number" name="number_of_attendees">
+                                        <option disabled selected>Number of attendees</option>
+                                        <option name="number_of_attendees" value="1">1</option>
+                                        <option name="number_of_attendees" value="2">2</option>
+                                        <option name="number_of_attendees" value="3">3</option>
+                                        <option name="number_of_attendees" value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <div class="event-modal-footer-container">
+                                <button type="submit" class="btn btn-signup">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="event3Modal" tabindex="-1" aria-labelledby="eventModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content event-modal">
+                    <div class="modal-header">
+                        <div class="modal-header-container">
+                            <h5 class="modal-title text-center">Dry Land Drink</h5>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+
+                    <form action="https://formdump.codeinstitute.net/" method="POST" class="newsletter-signup-form">
+
+                        <div class="modal-body">
+
+                            <div class="form-row p-1">
+                                <div class="col-12 col-md mb-2 mb-md-0">
+                                    <input type="text" class="form-control" placeholder="First name" name="first_name">
+                                </div>
+                                <div class="col-12 col-md">
+                                    <input type="text" class="form-control" placeholder="Last name" name="last_name">
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event3Email" hidden>Email address</label>
+                                    <input type="email" class="form-control" id="event3Email"
+                                        placeholder="Email: name@example.com" name="email_address">
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event3Experience" hidden>Experience Level</label>
+                                    <select class="form-control" id="event3Experience" name="experience_level">
+                                        <option disabled selected>Select Experience Level</option>
+                                        <option name="experience_level" value="beginner">Beginner</option>
+                                        <option name="experience_level" value="intermediate">Intermediate
+                                        </option>
+                                        <option name="experience_level" value="advanced">Advanced</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row p-1">
+                                <div class="col">
+                                    <label for="event3Number" hidden>Number of people</label>
+                                    <select class="form-control" id="event3Number" name="number_of_attendees">
+                                        <option disabled selected>Number of attendees</option>
+                                        <option name="number_of_attendees" value="1">1</option>
+                                        <option name="number_of_attendees" value="2">2</option>
+                                        <option name="number_of_attendees" value="3">3</option>
+                                        <option name="number_of_attendees" value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <div class="event-modal-footer-container">
+                                <button type="submit" class="btn btn-signup">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!------------------------------------------------ footer -->

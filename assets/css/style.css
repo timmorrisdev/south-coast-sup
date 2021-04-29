@@ -116,6 +116,7 @@ nav .show {
 }
 
 .why-jumbotron {
+  margin-bottom: 40px;
 }
 
 .events-jumbotron {
@@ -180,7 +181,7 @@ nav .show {
 /*------------------------------------------------why.html section */
 
 .why-card {
-  height: 350px;
+  height: fit-content;
 }
 
 .why-card a {
@@ -289,6 +290,26 @@ nav .show {
   border-radius: 1rem;
 }
 
+.event-nav-container {
+  background-color: rgba(12, 28, 49, 0.9);
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+  margin-bottom: 200px;
+}
+
+#eventNav {
+  text-align: center;
+}
+
+#eventNav .nav-item a {
+  color: #e2e2e2;
+}
+
+#eventNav .nav-item a:hover {
+  color: #fff;
+}
+
 /*------------------------------------------------Newsletter signup form */
 
 .newsletter-signup-section {
@@ -356,6 +377,16 @@ nav .show {
 
 .modal-section span {
   color: #c0c0c0;
+}
+
+.modal-header-container {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+
+.modal-header-container h5 {
+  margin-left: 35px;
 }
 
 /*------------------------------------------------Footer */
@@ -480,7 +511,7 @@ nav .show {
     height: 100%;
     overflow: hidden;
   }
-  #eventNav {
+  .event-nav-container {
     display: none;
   }
   #eventSunset,
@@ -488,11 +519,17 @@ nav .show {
   #eventOuse {
     padding-top: 0px;
   }
+  .why-card {
+    height: fit-content;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .event-detail-container {
     height: 205px;
     overflow: scroll;
+  }
+  .why-card {
+    height: 350px;
   }
 }
