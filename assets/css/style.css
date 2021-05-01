@@ -145,6 +145,10 @@ nav .show {
   padding-bottom: 0px;
 }
 
+.card-body a {
+  color: #fff;
+}
+
 /*------------------------------------------------about.html section */
 
 .about-card {
@@ -298,7 +302,9 @@ nav .show {
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
+  margin-top: 40px;
   margin-bottom: 200px;
+  padding: 10px;
 }
 
 #eventNav {
@@ -307,6 +313,8 @@ nav .show {
 
 #eventNav .nav-item a {
   color: #e2e2e2;
+  font-size: 18px;
+  margin-top: 16px;
 }
 
 #eventNav .nav-item a:hover {
