@@ -157,8 +157,16 @@ nav .show {
 }
 
 .about-card-container {
-  height: 250px;
+  height: fit-content;
 }
+
+.about-card p {
+  padding-bottom: 10px;
+}
+
+/* .about-card .card-text {
+  overflow: scroll;
+} */
 
 .about-card img {
   height: 100%;
@@ -501,6 +509,9 @@ nav .show {
 /*------------------------------------------------Media Queries */
 
 @media only screen and (min-width: 600px) {
+  /* .about-card-container {
+    height: 250px;
+  } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -522,14 +533,33 @@ nav .show {
   .why-card {
     height: fit-content;
   }
+  .about-card-container {
+    height: 280px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
   .event-detail-container {
-    height: 205px;
     overflow: scroll;
+    height: 205px;
   }
   .why-card {
     height: 350px;
   }
+  .about-card-container {
+    height: 250px;
+  }
 }
+
+/* @media only screen and (min-height: 780px) and (max-height: 830px) {
+  .event-detail-container {
+    height: fit-content;
+    overflow: scroll;
+  }
+  .event-card {
+    height: 50vh;
+  }
+  .event-card .card-body {
+    overflow: scroll;
+  }
+} */
