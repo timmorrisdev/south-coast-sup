@@ -48,6 +48,11 @@ ___
     - Montserrat / Lato / Quicksand
 
 - Wireframes
+    - [Landing Page](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Landing%20Page.png)
+    - [About the club](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/About.png)
+    - [Why / Where / Event pages](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Why_%20_%20Where%20_%20Events%20pages.png)
+    - [Signup page](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Signup.png)
+
 
 ___
 ## Features
@@ -70,10 +75,11 @@ ___
 - [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to import the 'Montserrat', 'Lato' and 'Quicksand' fonts, which were used throughout the site.
 - [Font Awesome](https://fontawesome.com/)
+    - Used to source images for the 'why SUP' card headings.
 - [Hover.css](https://ianlunn.github.io/Hover/)
     - Hover.css was used in the nav bar to animate the menu items.
 - [Git](https://git-scm.com/)
-    - Git was used for version control using the terminal in Gitpod to 'add' and 'commit' to Git and to push changes to the GitHub reposotory using 'git push'.
+    - Git was used for version control using the terminal in Gitpod to 'add' and 'commit' to Git and to push changes to the GitHub repository using 'git push'.
 
 - [Gitpod](https://gitpod.io/)
     - Gitpod.io was used as the primary development environment when coding for the site. It's terminal was used to preview the site via temporary server, and for version control using Git commands.
@@ -94,7 +100,22 @@ The project was deployed to GitHub pages using the following method.
 3. In the 'source' section, select the master branch as the source for the site deployemnt. 
 4. Hit 'save' and wait a few mins for GitHub to process. The 'pages' settings tab will now show a message to confirm the reposotory is being published to the address https://timmorrisdev.github.io/south-coast-sup/.
 
+### Forking the reposotory in GitHub
+Forking the repository creates a copy of the original repository in your own account to allow chages to be made without affecting the original repository.
+1. Log in to GitHub and navigate to the GitHub repository page.
+2. In the top-right of the page, below the user avatar, locate the "fork" button.
+3. Click the "fork" button and you should now have a copy of the repository in your own account. 
+
 ### Making a Local Clone
+Details of how to make a local copy of the GutHub repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). To clone using HTTPS follow these steps.
+1. Navigate to the GitHub repository.
+2. Click the "Code" drop-down menu above the list of files.
+3. Copy the HTTPS address to the clipboard using the button provided.
+4. Open Terminal.
+5. Change the current directory to the location you wish to copy the directory.
+6. Type 'git clone' and then paste the HTTPS url you copied earlier. 
+7. Press enter and your local clone will be created. 
+
 ___
 ## Credits
 ### Code
@@ -102,6 +123,9 @@ ___
 - [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/) article inspiration for 'min-height' solution to background image display issues on index.html.
 ### Content
 - All content written by the developer.
+- [British Canoeing](https://www.britishcanoeing.org.uk/membership) website used to research part of the routes offered in 'where to SUP'.
 ### Media
 - Main background image by [Sebastian Voortman](https://www.pexels.com/photo/man-and-woman-boat-rowing-in-sea-during-golden-hour-165505/) found on Pexels.com.
+- aboutImage1 by [Paddle North](https://unsplash.com/photos/BDK_ytyH-PA) found on unsplash.com.
+- aboutImage2 by [Paddle North](https://unsplash.com/photos/FslRftM-CtM) found on unsplash.com.
 
