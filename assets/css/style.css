@@ -25,13 +25,22 @@ p {
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
-  padding-left: 15px;
+  /* padding-left: 15px; */
   height: 4rem;
+  padding: 0;
 }
 
 .navbar-nav {
   /* margin-left: auto; */
   padding-left: 15px;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  margin-right: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -50,7 +59,7 @@ p {
 nav .collapsing,
 nav .show {
   background-color: rgba(12, 28, 49, 1);
-  border-radius: 30px 30px 0 0;
+  /* border-radius: 30px 30px 0 0; */
 }
 
 .nav-link {
@@ -153,6 +162,10 @@ nav .show {
 
 .about-card {
   padding-bottom: 0px;
+}
+
+.about-card .card-body {
+  overflow: scroll;
 }
 
 .about-card-container {
@@ -452,7 +465,7 @@ nav .show {
 /*------------------------------------------------ Buttons */
 
 .btn-signup {
-  background-color: #d64a24;
+  background-color: #b13613;
   border-color: #c3c3c3;
   border-width: 1px;
   color: #fff;
@@ -551,7 +564,7 @@ nav .show {
     height: fit-content;
   }
   .about-card-container {
-    height: 280px;
+    height: 295px;
   }
 }
 
