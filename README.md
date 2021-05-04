@@ -103,6 +103,9 @@ Issues identified and actions taken:
 - Readability issue with signup and register buttons across the site.
     - Lighthouse found that the contrast between the background colour and text colour of the .btn-signup button class to have readability issues. I used [webaim.org](https://webaim.org/resources/contrastchecker/) to input the current colour scheme and find an appropriate alternative that both fit my colour palate, and scored well on accessibility.
 
+- Accessibility issue with iframe elements.
+    - There were missing 'title' attributes to iframes embedded across the site. These were added to improve accessibility.
+
 ### Testing UX user stories
 - First time user goals
     1. As a first time user, I want to easily gain information about the local paddleboard community.
