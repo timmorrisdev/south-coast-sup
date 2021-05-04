@@ -50,168 +50,150 @@
                     <a class="nav-link hvr-underline-from-center" href="signup.html">Sign Up!<span
                             class="sr-only">(current)</span></a>
                 </li>
-
-                <!-- <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li> -->
             </ul>
         </div>
     </nav>
 
     <!------------------------------------------------ Signup form section -->
 
-    <!-- <div class="container-fluid bg-image-container"> -->
+    <div class="bg-image-container">
 
-    <div class="container signup-container">
-        <div class="jumbotron text-center">
-            <h1>Newsletter Signup</h1>
-            <hr class="block-divider block-divider__grey">
-            <!-- <p>Sign Up!</p> -->
-        </div>
+        <div class="container signup-container">
+            <div class="jumbotron text-center">
+                <h1>Newsletter Signup</h1>
+                <hr class="block-divider block-divider__grey">
+                <!-- <p>Sign Up!</p> -->
+            </div>
 
-        <!------------------------------------------------ newsletter signup form section -->
-        <!------------------------------------------------ elements of form copied from bootstrap documentation and edited to suit -->
+            <!------------------------------------------------ newsletter signup form section -->
+            <!------------------------------------------------ elements of form copied from bootstrap documentation and edited to suit -->
 
-        <div class="newsletter-signup-section col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <div class="newsletter-signup-section col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 
-            <form action="https://formdump.codeinstitute.net/" method="POST" enctype="multipart/form-data"
-                class="newsletter-signup-form">
+                <form action="https://formdump.codeinstitute.net/" method="POST" enctype="multipart/form-data"
+                    class="newsletter-signup-form">
 
-                <div class="form-row signup-form-item">
-                    <div class="col-12 col-md-6 mb-2 mb-md-0">
-                        <input type="text" class="form-control" placeholder="First name" name="first_name">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <input type="text" class="form-control" placeholder="Last name" name="last_name">
-                    </div>
-                </div>
-                <div class="form-row signup-form-item">
-                    <div class="col">
-                        <label for="signupEmail" hidden>Email address</label>
-                        <input type="email" class="form-control" id="signupEmail" placeholder="Email: name@example.com"
-                            name="email_address">
-                    </div>
-                </div>
-                <div class="form-row signup-form-item">
-                    <div class="col col-lg-6">
-                        <label for="signupExperience" hidden>Experience Level</label>
-                        <select class="form-control" id="signupExperience" name="experience_level">
-                            <option disabled selected>Select Experience Level</option>
-                            <option name="experience_level" value="beginner">Beginner</option>
-                            <option name="experience_level" value="intermediate">Intermediate</option>
-                            <option name="experience_level" value="advanced">Advanced</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="signup-form-item club-interests-container">
-                    <label for="interestsCheckbox"><strong>What interests you about South Coast
-                            SUP?</strong></label>
-                    <div class="interests-checkbox" id="interestsCheckbox">
-                        <div class="form-row">
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" name="signup_interest[local_info]"
-                                    value="local_info" id="interestInfo">
-                                <label class="form-check-label" for="interestInfo">
-                                    Local information
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" name="signup_interest[group_events]"
-                                    value="group_events" id="interestEvents">
-                                <label class="form-check-label" for="interestEvents">
-                                    Group paddle events
-                                </label>
-                            </div>
+                    <div class="form-row signup-form-item">
+                        <div class="col-12 col-md-6 mb-2 mb-md-0">
+                            <input type="text" class="form-control" placeholder="First name" name="first_name">
                         </div>
-                        <div class="form-row">
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" name="signup_interest[social_meetups]"
-                                    value="social_meetups" id="interestSocial">
-                                <label class="form-check-label" for="interestSocial">
-                                    Social meetups
-                                </label>
-                            </div>
-                            <div class="form-check form-check-inline col">
-                                <input class="form-check-input" type="checkbox" name="signup_interest[conditions_info]"
-                                    value="conditions_info" id="interestConditions">
-                                <label class="form-check-label" for="interestConditions">
-                                    Conditions information
-                                </label>
-                            </div>
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Last name" name="last_name">
                         </div>
                     </div>
-                </div>
-
-                <div class="form-row signup-form-item signup-comments-container">
-                    <div class="col">
-                        <label for="signupFormComments" hidden><strong>Anything else you'd like to tell
-                                us?</strong></label>
-                        <textarea class="form-control" id="signupFormComments" rows="4"
-                            placeholder="Any other comments?" name="signup_comments"></textarea>
+                    <div class="form-row signup-form-item">
+                        <div class="col">
+                            <label for="signupEmail" hidden>Email address</label>
+                            <input type="email" class="form-control" id="signupEmail"
+                                placeholder="Email: name@example.com" name="email_address">
+                        </div>
                     </div>
-                </div>
-
-                <div class="form-row text-center signup-form-item mt-0">
-                    <div class="col">
-                        <button type="submit" class="btn btn-signup btn-signup-lg">Submit</button>
+                    <div class="form-row signup-form-item">
+                        <div class="col col-lg-6">
+                            <label for="signupExperience" hidden>Experience Level</label>
+                            <select class="form-control" id="signupExperience" name="experience_level">
+                                <option disabled selected>Select Experience Level</option>
+                                <option name="experience_level" value="beginner">Beginner</option>
+                                <option name="experience_level" value="intermediate">Intermediate</option>
+                                <option name="experience_level" value="advanced">Advanced</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-            </form>
+                    <div class="signup-form-item club-interests-container">
+                        <label for="interestsCheckbox"><strong>What interests you about South Coast
+                                SUP?</strong></label>
+                        <div class="interests-checkbox" id="interestsCheckbox">
+                            <div class="form-row">
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" name="signup_interest[local_info]"
+                                        value="local_info" id="interestInfo">
+                                    <label class="form-check-label" for="interestInfo">
+                                        Local information
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox" name="signup_interest[group_events]"
+                                        value="group_events" id="interestEvents">
+                                    <label class="form-check-label" for="interestEvents">
+                                        Group paddle events
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox"
+                                        name="signup_interest[social_meetups]" value="social_meetups"
+                                        id="interestSocial">
+                                    <label class="form-check-label" for="interestSocial">
+                                        Social meetups
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline col">
+                                    <input class="form-check-input" type="checkbox"
+                                        name="signup_interest[conditions_info]" value="conditions_info"
+                                        id="interestConditions">
+                                    <label class="form-check-label" for="interestConditions">
+                                        Conditions information
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row signup-form-item signup-comments-container">
+                        <div class="col">
+                            <label for="signupFormComments" hidden><strong>Anything else you'd like to tell
+                                    us?</strong></label>
+                            <textarea class="form-control" id="signupFormComments" rows="4"
+                                placeholder="Any other comments?" name="signup_comments"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row text-center signup-form-item mt-0">
+                        <div class="col">
+                            <button type="submit" class="btn btn-signup btn-signup-lg">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
         </div>
+
+        <!------------------------------------------------ footer -->
+
+        <footer class="footer mt-auto container-fluid">
+            <div class="row footer-container">
+                <div class="col-2 col-sm-1">
+                    <a target="blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a target="blank" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </div>
+                <div class="col-4 col-sm-3 col-lg-2">
+                    <a type="button" class="btn btn-signup btn-signup-lg" href="signup.html">Sign Up!</a>
+                </div>
+                <div class="col-2">
+                    <a target="blank" href="https://twitter.com/">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </div>
+                <div class="col-2 col-sm-1">
+                    <a target="blank" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
 
     </div>
-    <!-- </div> -->
-
-    <!------------------------------------------------ footer -->
-
-    <footer class="footer mt-auto container-fluid">
-        <div class="row footer-container">
-            <div class="col-2 col-sm-1">
-                <a target="blank" href="https://www.facebook.com/">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-            </div>
-            <div class="col-2">
-                <a target="blank" href="https://www.instagram.com/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </div>
-            <div class="col-4 col-sm-3 col-lg-2">
-                <a type="button" class="btn btn-signup btn-signup-lg" href="signup.html">Sign Up!</a>
-            </div>
-            <div class="col-2">
-                <a target="blank" href="https://twitter.com/">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-            </div>
-            <div class="col-2 col-sm-1">
-                <a target="blank" href="https://www.youtube.com/">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">Youtube</span>
-                </a>
-            </div>
-        </div>
-
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

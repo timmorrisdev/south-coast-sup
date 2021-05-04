@@ -14,12 +14,7 @@ body {
   background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
     center center fixed;
   background-size: cover;
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  height: 100vh;
 }
 
 p {
@@ -34,6 +29,48 @@ h2 {
 
 h3 {
   font-size: 1.25rem;
+}
+
+/*------------------------------------------------Main containers */
+
+/* .bg-image-container {
+  background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
+    center center fixed;
+  background-size: cover;
+  display: block;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} */
+
+.bg-image-container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+.landing-container {
+}
+
+.why-container {
+}
+
+.where-container {
+}
+
+.about-container {
+}
+
+.events-container {
+}
+
+.signup-container {
 }
 
 /*------------------------------------------------Navbar */
@@ -85,52 +122,6 @@ nav .show {
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-}
-
-/*------------------------------------------------Main containers */
-
-/* .bg-image-container {
-  background: url(../images/pexels-sebastian-voortman-165505.jpg) no-repeat
-    center center fixed;
-  background-size: cover;
-  display: block;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
-
-.landing-container {
-  height: 100vh;
-  overflow: scroll;
-}
-
-.why-container {
-  height: 100vh;
-  overflow: scroll;
-}
-
-.where-container {
-  height: 100vh;
-  overflow: scroll;
-}
-
-.about-container {
-  height: 100vh;
-  overflow: scroll;
-}
-
-.events-container {
-  height: 100vh;
-  overflow: scroll;
-}
-
-.signup-container {
-  height: 100vh;
-  overflow: scroll;
 }
 
 /*------------------------------------------------Jumbotrons */
