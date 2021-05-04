@@ -22,6 +22,10 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  font-size: 1.25rem;
+}
+
 /*------------------------------------------------Navbar */
 
 .navbar {
@@ -82,8 +86,8 @@ nav .show {
   display: block;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   min-height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -221,24 +225,8 @@ nav .show {
 
 /*------------------------------------------------where.html section */
 
-/* .where-card {
-  height: 500px;
-}
-
-.where-card-container {
-  height: 250px;
-}
-
-.where-card-text {
-  height: 200px;
-  overflow: scroll;
-  border: #c0c0c0 solid 1px;
-  border-radius: 7px;
-  padding: 5px;
-} */
-
 .where-nav-container {
-  height: 550px;
+  height: auto;
   background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
@@ -268,24 +256,15 @@ nav .show {
   padding-top: 10px;
 }
 
-.where-tab-row {
-  height: 400px;
-  overflow: scroll;
-}
-
-/* .where-info-container {
-  height: 100%;
-  overflow: scroll;
-} */
-
 .tab-content h2 {
   text-align: center;
 }
 
 .tab-content iframe {
   width: 100%;
-  height: 40%;
-  margin-top: 5%;
+  height: 35%;
+  margin-bottom: 1%;
+  margin-top: 1%;
   border-radius: 1rem;
 }
 
@@ -357,23 +336,6 @@ nav .show {
   border-radius: 0.25rem;
   padding: 0.375rem 0.75rem;
 }
-
-/* .signup-comments-container {
-  border: 1px solid #ced4da;
-  border-radius: 0.25rem;
-}
-
-.signup-comments-container .col {
-  padding: 0;
-}
-
-.signup-comments-container label {
-  margin: 0.375rem 0.75rem 0.375rem 0.75rem;
-}
-
-.signup-comments-container textarea {
-  border-radius: 0 0 0.25rem 0.25rem;
-} */
 
 .newsletter-signup-section .btn-signup {
   margin-top: 1.25rem;
@@ -569,6 +531,9 @@ nav .show {
   }
   .about-card-container {
     height: 295px;
+  }
+  .where-tab-row {
+    height: 400px;
   }
 }
 
