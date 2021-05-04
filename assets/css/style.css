@@ -104,21 +104,33 @@ nav .show {
 } */
 
 .landing-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 .why-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 .where-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 .about-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 .events-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 .signup-container {
+  height: 100vh;
+  overflow: scroll;
 }
 
 /*------------------------------------------------Jumbotrons */
