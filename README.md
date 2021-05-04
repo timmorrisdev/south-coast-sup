@@ -15,28 +15,28 @@ ___
 ### User Stories
 
 - First time user goals
-    - As a first time user, I want to easily gain information about the local paddleboard community.
-    - As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
-    - As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
-    - As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
+    1. As a first time user, I want to easily gain information about the local paddleboard community.
+    2. As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
+    3. As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
+    4. As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
 
 - Second time user goals
-    - As a returning user, I want to be able to connect with the clubs social media pages.
-    - As a returning user, I want up-to-date information about weather and water conditions.
+    1. As a returning user, I want to be able to connect with the clubs social media pages.
+    2. As a returning user, I want up-to-date information about weather and water conditions.
 
 - Frequent user goals
-    - As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
+    1. As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
 
 ### Business Goals
 
 - Immediate
-    - To create a paddlebaord community and provide information.
-    - To gain subscriptions to the newsletter.
-    - To attract people to take part in organised events, both paid and free.
+    1. To create a paddlebaord community and provide information.
+    2. To gain subscriptions to the newsletter.
+    3. To attract people to take part in organised events, both paid and free.
 
 - Future goals
-    - To gain sponsorship  from local business and paddleboard brands.
-    - To drive up social media followers and engagement to both build the club visibility and attract partnerships with brands. 
+    1. To gain sponsorship  from local business and paddleboard brands.
+    2. To drive up social media followers and engagement to both build the club visibility and attract partnerships with brands. 
 
 ### Design
 
@@ -90,6 +90,39 @@ ___
 
 ___
 ## Testing
+### Lighthouse testing
+I used Lighthouse performance reports genrated in Google dev tools during the later stages of site development to identfiy any areas that I could improve the performance, accessibility, best practices and SEO across the site. 
+
+Issues identified and actions taken:
+- Large image files slowing down performance.
+    - I fould that my background image and imagees displayed in other areas of the site were too large and affecting performance. By using [tinypng.com](https://tinypng.com/) I was able reduce the files sizes and fix the performance issue.
+
+- Headings not arranged in a sequentially-descending order.
+    - Due to my use of some code copied from the Bootstrap documentation, my heading elements were not sequential in their order. I was able to change this in my HTML and override the bootstrap styling using CSS to keep the styles and sizing as I wanted across the site.
+
+- Readability issue with signup and register buttons across the site.
+    - Lighthouse found that the contrast between the background colour and text colour of the .btn-signup button class to have readability issues. I used [webaim.org](https://webaim.org/resources/contrastchecker/) to input the current colour scheme and find an appropriate alternative that both fit my colour palate, and scored well on accessibility.
+
+### Testing UX user stories
+- First time user goals
+    1. As a first time user, I want to easily gain information about the local paddleboard community.
+        - I was able to find that there is an active community in the area that encourages group participation and social events, both on and off the water.
+    2. As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
+        - I found several examples of reasons to participate in the sport as well as some positive results I may see from doing so.
+    3. As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
+        - There were several examples of places in the local area to paddlebaord and it was easy to see the real-time conditions at each as well as a google maps link to easily locate the places being referenced.
+    4. As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
+        - I was promped to sign up to the newsletter to receive regular updates and there were easy-to-see buttons across the site to link to where I could sign up. 
+
+- Second time user goals
+    1. As a returning user, I want to be able to connect with the clubs social media pages.
+        - Links to the club's social media pages were clear across the site and easy to identify and navigate.
+    2. As a returning user, I want up-to-date information about weather and water conditions.
+        - Using the information about suggested routes I could see detailed, real-time weather and water conditions at each of the locations.
+
+- Frequent user goals
+    1. As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
+        - The events page allowed me to see what oranised group events were upcoming and it was easy to register me and my friends to take part. 
 
 ___
 ## Deployment

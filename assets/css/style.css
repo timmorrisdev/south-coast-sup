@@ -15,7 +15,11 @@ body {
 p {
   font-family: "Lato";
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 /*------------------------------------------------Navbar */
@@ -274,7 +278,7 @@ nav .show {
   overflow: scroll;
 } */
 
-.tab-content h4 {
+.tab-content h2 {
   text-align: center;
 }
 
