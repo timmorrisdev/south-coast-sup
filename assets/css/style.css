@@ -179,6 +179,59 @@ nav .show {
   color: #fff;
 }
 
+/*------------------------------------------------landing page */
+
+.landing-jumbotron p {
+  display: none;
+}
+
+.callout-container {
+  background-color: rgba(12, 28, 49, 0.9);
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+  height: fit-content;
+  padding: 15px;
+
+  overflow: hidden;
+}
+
+.callout-container h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.callout-container p {
+  text-align: center;
+  line-height: 25px;
+}
+
+.callout-container a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.callout-container mark {
+  background-color: rgba(226, 226, 226, 0.1);
+  color: #e2e2e2;
+  border-radius: 10px;
+  border: solid 1px #e2e2e2;
+}
+
+.callout-lead {
+  display: none;
+}
+
+.callout-body {
+  margin: 5px auto 16px auto;
+  /* width: 60%; */
+}
+
+.callout-signoff {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
 /*------------------------------------------------about.html section */
 
 .about-card {
@@ -504,6 +557,18 @@ nav .show {
   background-color: #e2e2e2;
 }
 
+.block-divider__wide {
+  width: 150px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
 /*------------------------------------------------Hover.css */
 
 .hvr-underline-from-center::before {
@@ -548,6 +613,19 @@ nav .show {
   .where-tab-row {
     height: 400px;
   }
+  .callout-lead {
+    display: block;
+  }
+  .callout-body {
+    margin: 16px auto 16px auto;
+    width: 80%;
+  }
+  .landing-jumbotron p {
+    display: block;
+  }
+  .callout-container p {
+    line-height: 35px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -560,6 +638,10 @@ nav .show {
   }
   .about-card-container {
     height: 250px;
+  }
+  .callout-body {
+    margin: 16px auto 16px auto;
+    width: 60%;
   }
 }
 
