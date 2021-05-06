@@ -124,8 +124,19 @@ nav .show {
   -o-transition: all 0.3s ease-in-out;
 }
 
+#navbarNavDropdown {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 3rem;
+}
+
 #navbarNavDropdown a {
-  font-size: 1.25rem;
+  font-size: 2rem;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #fff;
+  border-color: #e2e2e2;
 }
 
 /*------------------------------------------------Jumbotrons */
