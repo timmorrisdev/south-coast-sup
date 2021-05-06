@@ -159,10 +159,12 @@ nav .show {
   border: solid 3px rgba(12, 28, 49, 1);
   overflow: hidden;
   margin-bottom: 1.5rem;
-  /* max-height: 500px; */
   padding-bottom: 12px;
+}
 
-  /* overflow: scroll; */
+.card h2 {
+  color: #fff;
+  text-shadow: 2px 2px black;
 }
 
 .card iframe {
@@ -292,6 +294,11 @@ nav .show {
   border: solid 3px rgba(12, 28, 49, 1);
   padding: 15px;
   overflow: hidden;
+}
+
+.where-nav-container h2 {
+  color: #fff;
+  text-shadow: 2px 2px black;
 }
 
 .nav-tabs .nav-link {
@@ -528,7 +535,7 @@ nav .show {
 }
 
 .bg-color__blue-opaque {
-  background-color: #0e2542eb;
+  background-color: #102c4eeb;
 }
 
 .bg-color__blue-solid {
