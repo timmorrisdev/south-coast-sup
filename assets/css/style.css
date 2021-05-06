@@ -81,8 +81,7 @@ h3 {
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
   /* padding-left: 15px; */
-  height: 4rem;
-  padding: 0;
+  padding: 10px 0 10px 0;
 }
 
 .navbar-nav {
@@ -113,8 +112,7 @@ h3 {
 
 nav .collapsing,
 nav .show {
-  background-color: rgba(12, 28, 49, 1);
-  /* border-radius: 30px 30px 0 0; */
+  /* background-color: rgba(12, 28, 49, 1); */
 }
 
 .nav-link {
@@ -209,13 +207,8 @@ nav .show {
 .callout-container a {
   color: #fff;
   font-weight: 400;
-}
-
-.callout-container mark {
-  background-color: rgba(226, 226, 226, 0.1);
-  color: #e2e2e2;
-  border-radius: 10px;
-  border: solid 1px #e2e2e2;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .callout-lead {
@@ -224,7 +217,7 @@ nav .show {
 
 .callout-body {
   margin: 5px auto 16px auto;
-  /* width: 60%; */
+  text-align: center;
 }
 
 .callout-signoff {
@@ -455,11 +448,9 @@ nav .show {
   background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   text-align: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-top: solid 3px rgba(12, 28, 49, 1);
-  /* min-height: 150px; */
 }
 
 .footer-container {
@@ -536,11 +527,11 @@ nav .show {
 }
 
 .bg-color__blue-opaque {
-  background-color: rgba(12, 28, 49, 0.8);
+  background-color: #0e2542eb;
 }
 
 .bg-color__blue-solid {
-  background-color: rgba(12, 28, 49, 1);
+  background-color: #0e2542;
 }
 
 /*------------------------------------------------block dividers */
@@ -560,6 +551,8 @@ nav .show {
 .block-divider__wide {
   width: 150px;
 }
+
+/*------------------------------------------------utility classes */
 
 .full-width {
   width: 100%;
