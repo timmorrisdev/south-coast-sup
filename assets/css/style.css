@@ -18,13 +18,15 @@ body {
 }
 
 p {
-  font-family: "Lato";
-  font-weight: 300;
+  font-family: "Quicksand";
+  font-weight: 400;
   font-size: 16px;
 }
 
 h2 {
   font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px black;
 }
 
 h3 {
@@ -76,7 +78,7 @@ h3 {
 /*------------------------------------------------Navbar */
 
 .navbar {
-  background-color: rgba(12, 28, 49, 0.9);
+  /* background-color: rgba(12, 28, 49, 0.9); */
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
@@ -122,6 +124,10 @@ nav .show {
   -o-transition: all 0.3s ease-in-out;
 }
 
+#navbarNavDropdown a {
+  font-size: 1.25rem;
+}
+
 /*------------------------------------------------Jumbotrons */
 
 .jumbotron {
@@ -129,7 +135,6 @@ nav .show {
   margin-right: 1rem;
   margin-bottom: 30px;
   border-radius: 5rem;
-  background-color: rgba(12, 28, 49, 0.9);
   color: #fff;
   text-shadow: 2px 2px black;
   padding: 15px 15px;
@@ -153,18 +158,12 @@ nav .show {
 /*------------------------------------------------Cards */
 
 .card {
-  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
   overflow: hidden;
   margin-bottom: 1.5rem;
   padding-bottom: 12px;
-}
-
-.card h2 {
-  color: #fff;
-  text-shadow: 2px 2px black;
 }
 
 .card iframe {
@@ -186,7 +185,6 @@ nav .show {
 }
 
 .callout-container {
-  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
@@ -198,7 +196,6 @@ nav .show {
 
 .callout-container h2 {
   text-align: center;
-  color: #fff;
 }
 
 .callout-container p {
@@ -288,17 +285,11 @@ nav .show {
 
 .where-nav-container {
   height: auto;
-  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
   padding: 15px;
   overflow: hidden;
-}
-
-.where-nav-container h2 {
-  color: #fff;
-  text-shadow: 2px 2px black;
 }
 
 .nav-tabs .nav-link {
@@ -360,7 +351,6 @@ nav .show {
 }
 
 .event-nav-container {
-  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
@@ -387,7 +377,6 @@ nav .show {
 
 .newsletter-signup-section {
   padding: 30px;
-  background-color: rgba(12, 28, 49, 0.8);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
@@ -415,7 +404,6 @@ nav .show {
 }
 
 .event-modal {
-  background-color: rgba(12, 28, 49, 0.8);
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px #e2e2e2;
@@ -452,7 +440,6 @@ nav .show {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(12, 28, 49, 0.9);
   color: #e2e2e2;
   text-align: center;
   padding-top: 10px;
@@ -500,7 +487,7 @@ nav .show {
   border-color: #c3c3c3;
   border-width: 1px;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   white-space: nowrap;
   /*------------------------------------------------ Transition copied from resume project and modified */
   transition: all 0.4s ease-in-out;
