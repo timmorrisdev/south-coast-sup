@@ -80,12 +80,10 @@ h3 {
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
-  /* padding-left: 15px; */
   padding: 10px 0 10px 0;
 }
 
 .navbar-nav {
-  /* margin-left: auto; */
   padding-left: 15px;
 }
 
@@ -136,56 +134,6 @@ nav .show {
   border-color: #e2e2e2;
 }
 
-/*------------------------------------------------Jumbotrons */
-
-.jumbotron {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 30px;
-  border-radius: 5rem;
-  color: #fff;
-  text-shadow: 2px 2px black;
-  padding: 15px 15px;
-  border: solid 3px rgba(12, 28, 49, 1);
-}
-
-.jumbotron p {
-  color: #e2e2e2;
-}
-
-.landing-jumbotron {
-}
-
-.why-jumbotron {
-  margin-bottom: 40px;
-}
-
-.events-jumbotron {
-}
-
-/*------------------------------------------------Cards */
-
-.card {
-  color: #e2e2e2;
-  border-radius: 3rem;
-  border: solid 3px rgba(12, 28, 49, 1);
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-  padding-bottom: 12px;
-}
-
-.card iframe {
-  border-radius: 1rem;
-}
-
-.card-body {
-  padding-bottom: 0px;
-}
-
-.card-body a {
-  color: #fff;
-}
-
 /*------------------------------------------------landing page */
 
 .landing-jumbotron p {
@@ -196,6 +144,8 @@ nav .show {
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 15px;
 
@@ -243,16 +193,14 @@ nav .show {
 }
 
 .about-card-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 
 .about-card p {
   padding-bottom: 10px;
 }
-
-/* .about-card .card-text {
-  overflow: scroll;
-} */
 
 .about-card img {
   height: 100%;
@@ -275,11 +223,15 @@ nav .show {
 /*------------------------------------------------why.html section */
 
 .why-card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 0;
 }
 
 .why-card .card-body {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding: 12px;
 }
@@ -302,7 +254,6 @@ nav .show {
 .why-card-img {
   padding: 0;
   overflow: hidden;
-  background-color: blue;
 }
 
 .why-card img {
@@ -428,6 +379,104 @@ nav .show {
   margin-top: 1.25rem;
 }
 
+.signup-form-item p {
+  margin-bottom: 8px;
+  text-decoration: underline;
+}
+
+/*------------------------------------------------Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #e2e2e2;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: solid 3px rgba(12, 28, 49, 1);
+  height: 85px;
+}
+
+.footer-container {
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-container a i {
+  color: #c0c0c0;
+  font-size: 25px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  padding-top: 4px;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.footer-container a i:hover {
+  color: #fff;
+  font-size: 30px;
+}
+
+/*------------------------------------------------Jumbotrons */
+
+.jumbotron {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 30px;
+  border-radius: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px black;
+  padding: 15px 15px;
+  border: solid 3px rgba(12, 28, 49, 1);
+}
+
+.jumbotron p {
+  color: #e2e2e2;
+}
+
+.landing-jumbotron {
+}
+
+.why-jumbotron {
+  margin-bottom: 40px;
+}
+
+.events-jumbotron {
+}
+
+/*------------------------------------------------Cards */
+
+.card {
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  padding-bottom: 12px;
+}
+
+.card iframe {
+  border-radius: 1rem;
+}
+
+.card-body {
+  padding-bottom: 0px;
+}
+
+.card-body a {
+  color: #fff;
+}
+
 /*------------------------------------------------Modals */
 
 .modal-section .show,
@@ -463,53 +512,6 @@ nav .show {
 
 .modal-header-container h5 {
   margin-left: 35px;
-}
-
-/*------------------------------------------------Footer */
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #e2e2e2;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-top: solid 3px rgba(12, 28, 49, 1);
-  height: 85px;
-}
-
-.footer-container {
-  height: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.footer-container a i {
-  color: #c0c0c0;
-  font-size: 25px;
-  text-align: center;
-  width: 35px;
-  height: 35px;
-  padding-top: 4px;
-  /* border: solid #c0c0c0 1px; */
-  /* border-radius: 12px; */
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-}
-
-.footer-container a i:hover {
-  color: #fff;
-  font-size: 30px;
-  /* border: solid #fff 3px; */
-  /* padding-top: 2px; */
 }
 
 /*------------------------------------------------ Buttons */
