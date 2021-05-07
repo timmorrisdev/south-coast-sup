@@ -278,6 +278,11 @@ nav .show {
   padding-bottom: 0;
 }
 
+.why-card .card-body {
+  height: fit-content;
+  padding: 12px;
+}
+
 .why-card a {
   color: #e2e2e2;
   font-weight: 500;
@@ -287,6 +292,24 @@ nav .show {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.why-card i {
+  padding-bottom: 7px;
+}
+
+.why-card-img {
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.why-card img {
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
 }
 
 /*------------------------------------------------where.html section */
@@ -579,9 +602,6 @@ nav .show {
 /*------------------------------------------------Media Queries */
 
 @media only screen and (min-width: 600px) {
-  /* .about-card-container {
-    height: 250px;
-  } */
 }
 
 @media only screen and (min-width: 768px) {
@@ -600,9 +620,6 @@ nav .show {
   #eventOuse {
     padding-top: 0px;
   }
-  /* .why-card {
-    height: fit-content;
-  } */
   .about-card-container {
     height: 295px;
   }
@@ -622,6 +639,15 @@ nav .show {
   .callout-container p {
     line-height: 35px;
   }
+
+  #whyImageMH {
+    height: 350px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -629,9 +655,6 @@ nav .show {
     overflow: scroll;
     height: 205px;
   }
-  /* .why-card {
-    height: 450px;
-  } */
   .about-card-container {
     height: 250px;
   }
@@ -639,23 +662,25 @@ nav .show {
     margin: 16px auto 16px auto;
     width: 60%;
   }
+  .why-card .card-body {
+    height: 370px;
+  }
+  .why-card-img {
+    height: 250px;
+  }
+
+  #whyImageMH {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+    overflow: hidden;
+  }
 }
 
-/* @media only screen and (min-height: 780px) and (max-height: 830px) {
-  .event-detail-container {
-    height: fit-content;
-    overflow: scroll;
-  }
-  .event-card {
-    height: 50vh;
-  }
-  .event-card .card-body {
-    overflow: scroll;
-  }
-} */
-
 @media only screen and (min-width: 1200px) {
-  /* .why-card {
-    height: 365px;
-  } */
+  .why-card .card-body {
+    height: 320px;
+  }
 }
