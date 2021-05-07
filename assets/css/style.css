@@ -211,7 +211,7 @@ nav .show {
   line-height: 25px;
 }
 
-.callout-container button {
+.callout-container a {
   color: #fff;
   font-weight: 400;
   margin-top: 10px;
