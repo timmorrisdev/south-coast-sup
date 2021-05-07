@@ -41,7 +41,7 @@ ___
 ### Design
 
 - Colour Scheme
-    - Blues and dusky greys, sunset orange details. Soft greens when appropriate for imagery. [View colour palette](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/images/SurfSUP3.png)
+    - Blues and dusky greys, sunset orange details. Soft greens when appropriate for imagery. [View colour palette](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/SurfSUP3.png)
     - Light grey text with white hover.
 
 - Fonts
@@ -52,8 +52,24 @@ ___
     - [About the club](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/About.png)
     - [Why / Where / Event pages](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Why_%20_%20Where%20_%20Events%20pages.png)
     - [Signup page](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Signup.png)
+### Design Descisions Made During Development
+- Landing Page 'Call-To-Action' section
+    - I chose to further develop the club ethos section on the home/landing page to include buttons directing the user to key areas of the site. This is to inprove the user experience and also to prevent any first time user from navigating away from the page before finding what they require.
 
+ - 'Where to SUP' page
+    - After arranging the page into three cards, as per the wireframe, I found the content too much to show while trying to keep a streamlined and clutter-free user experience. I made the descision to utilise a nav instead of the cards, allowing me to display more detailed information for each location while maintaining a clear layout. This design also leaves room for future development as adding more locations as the club grows will not take up more real-estate on the page.
 
+- Event Registration Modals
+    - Having built the events page, I needed a way of the user registering their interest in a parcicular event without directing them to a further page and interrupting their jouney through the site. I settled on using a modal containing the resigtration form to achieve this. The information entered will be delivered to the Code Institute form-dump server.     
+
+- Colour Scheme
+    - I found a couple of my suggested colours a little too bold for my vision for the site. While keeping fairly close to the colour scheme detailed in the previous section, I was able to use the colour picker in Google dev tools to adjust the shades being used to achieve a more relaxed colour theme across the site. 
+
+### Future Development Opportunities
+- Updating The 'Where To SUP' Page
+    - As the club grows, I anticipate more locations being added to the 'where to SUP' page. There is opportunity to create an interactive map with a search function that would allow the user to easily see a whole host of local places to participate in the sport.Along with their geographical location in relation to each other. 
+    
+        This is beyond the scope of this project, but something I would look to do in the future.
 ___
 ## Features
 - Responsive across all devices and screen sizes.
@@ -90,7 +106,14 @@ ___
 
 ___
 ## Testing
-### Lighthouse testing
+### W3C Markup and CSS Validation
+I used the W3C Markup and CSS Validator Services to check and validate each page throughout the site to check for errors. 
+- [Markup Validation Service](https://validator.w3.org/)
+    - [My results]()
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    - [My results]()
+
+### Lighthouse Testing
 I used Lighthouse performance reports genrated in Google dev tools during the later stages of site development to identfiy any areas that I could improve the performance, accessibility, best practices and SEO across the site. 
 
 Issues identified and actions taken:
@@ -156,7 +179,9 @@ ___
 ## Credits
 ### Code
 - Bootstrap nav bar, card, signup form, modal and button template code used in places and modified to suit purpose of the site.
-- [css-tricks.com](https://css-tricks.com/perfect-full-page-background-image/) article inspiration for 'min-height' solution to background image display issues on index.html.
+- [css-tricks.com](https://css-tricks.com/snippets/css/transparent-background-images/) article code used to 'dull' the main background-image to create a more relaxed look.
+
+
 ### Content
 - All content written by the developer.
 - [British Canoeing](https://www.britishcanoeing.org.uk/membership) website used to research part of the routes offered in 'where to SUP'.
@@ -164,4 +189,7 @@ ___
 - Main background image by [Sebastian Voortman](https://www.pexels.com/photo/man-and-woman-boat-rowing-in-sea-during-golden-hour-165505/) found on Pexels.com.
 - aboutImage1 by [Paddle North](https://unsplash.com/photos/BDK_ytyH-PA) found on unsplash.com.
 - aboutImage2 by [Paddle North](https://unsplash.com/photos/FslRftM-CtM) found on unsplash.com.
+- whyImageFitness by [Chevanon Photography](https://www.pexels.com/photo/low-angle-view-of-woman-relaxing-on-beach-against-blue-sky-317157/) found on pexels.com.
+- whyImageMH by [Nataliya Vaitkevich](https://www.pexels.com/photo/person-wearing-silver-ring-with-black-manicure-5201529/) found on pexels.com.
+- whyImageSocial by [Kindel Media](https://www.pexels.com/photo/group-of-friends-walking-on-beach-shore-7148447/) found on pexels.com.
 

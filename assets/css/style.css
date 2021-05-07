@@ -114,6 +114,7 @@ nav .collapsing,
 nav .show {
   line-height: 2rem;
   font-size: 1.2rem;
+  background-color: #102c4e;
 }
 
 .nav-link {
@@ -553,7 +554,7 @@ nav .show {
 }
 
 .bg-color__blue-opaque {
-  background-color: #102c4eeb;
+  background-color: #102c4ee1;
 }
 
 .bg-color__blue-solid {
