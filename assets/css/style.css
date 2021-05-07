@@ -80,6 +80,7 @@ h3 {
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
+  /* padding-left: 15px; */
   padding: 10px 0 10px 0;
 }
 
@@ -132,6 +133,56 @@ nav .show {
 .navbar-dark .navbar-toggler {
   color: #fff;
   border-color: #e2e2e2;
+}
+
+/*------------------------------------------------Jumbotrons */
+
+.jumbotron {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 30px;
+  border-radius: 5rem;
+  color: #fff;
+  text-shadow: 2px 2px black;
+  padding: 15px 15px;
+  border: solid 3px rgba(12, 28, 49, 1);
+}
+
+.jumbotron p {
+  color: #e2e2e2;
+}
+
+.landing-jumbotron {
+}
+
+.why-jumbotron {
+  margin-bottom: 40px;
+}
+
+.events-jumbotron {
+}
+
+/*------------------------------------------------Cards */
+
+.card {
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px rgba(12, 28, 49, 1);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  padding-bottom: 12px;
+}
+
+.card iframe {
+  border-radius: 1rem;
+}
+
+.card-body {
+  padding-bottom: 0px;
+}
+
+.card-body a {
+  color: #fff;
 }
 
 /*------------------------------------------------landing page */
@@ -384,6 +435,43 @@ nav .show {
   text-decoration: underline;
 }
 
+/*------------------------------------------------Modals */
+
+.modal-section .show,
+.modal-section .fade {
+  background-color: rgba(12, 28, 49, 0.5);
+}
+
+.event-modal {
+  color: #e2e2e2;
+  border-radius: 3rem;
+  border: solid 3px #e2e2e2;
+}
+
+.event-modal-footer-container {
+  margin: 0 auto;
+}
+
+#eventSunset,
+#eventAdur,
+#eventOuse {
+  padding-top: 70px;
+}
+
+.modal-section span {
+  color: #c0c0c0;
+}
+
+.modal-header-container {
+  width: 100%;
+  text-align: center;
+  display: inline;
+}
+
+.modal-header-container h5 {
+  margin-left: 35px;
+}
+
 /*------------------------------------------------Footer */
 
 .footer {
@@ -425,93 +513,6 @@ nav .show {
 .footer-container a i:hover {
   color: #fff;
   font-size: 30px;
-}
-
-/*------------------------------------------------Jumbotrons */
-
-.jumbotron {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 30px;
-  border-radius: 5rem;
-  color: #fff;
-  text-shadow: 2px 2px black;
-  padding: 15px 15px;
-  border: solid 3px rgba(12, 28, 49, 1);
-}
-
-.jumbotron p {
-  color: #e2e2e2;
-}
-
-.landing-jumbotron {
-}
-
-.why-jumbotron {
-  margin-bottom: 40px;
-}
-
-.events-jumbotron {
-}
-
-/*------------------------------------------------Cards */
-
-.card {
-  color: #e2e2e2;
-  border-radius: 3rem;
-  border: solid 3px rgba(12, 28, 49, 1);
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-  padding-bottom: 12px;
-}
-
-.card iframe {
-  border-radius: 1rem;
-}
-
-.card-body {
-  padding-bottom: 0px;
-}
-
-.card-body a {
-  color: #fff;
-}
-
-/*------------------------------------------------Modals */
-
-.modal-section .show,
-.modal-section .fade {
-  background-color: rgba(12, 28, 49, 0.5);
-}
-
-.event-modal {
-  color: #e2e2e2;
-  border-radius: 3rem;
-  border: solid 3px #e2e2e2;
-}
-
-.event-modal-footer-container {
-  margin: 0 auto;
-}
-
-#eventSunset,
-#eventAdur,
-#eventOuse {
-  padding-top: 70px;
-}
-
-.modal-section span {
-  color: #c0c0c0;
-}
-
-.modal-header-container {
-  width: 100%;
-  text-align: center;
-  display: inline;
-}
-
-.modal-header-container h5 {
-  margin-left: 35px;
 }
 
 /*------------------------------------------------ Buttons */
