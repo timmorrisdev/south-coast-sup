@@ -35,6 +35,12 @@ p {
   font-size: 16px;
 }
 
+h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 2px 2px black;
+}
+
 h2 {
   font-size: 1.5rem;
   color: #fff;
@@ -58,19 +64,23 @@ h3 {
 .landing-container {
 }
 
+.about-container {
+  padding-bottom: 200px;
+}
+
 .why-container {
+  padding-bottom: 200px;
 }
 
 .where-container {
-}
-
-.about-container {
+  padding-bottom: 200px;
 }
 
 .events-container {
 }
 
 .signup-container {
+  padding-bottom: 250px;
 }
 
 /*------------------------------------------------Navbar */
@@ -140,7 +150,7 @@ nav .show {
 .jumbotron {
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   border-radius: 5rem;
   color: #fff;
   text-shadow: 2px 2px black;
@@ -156,10 +166,13 @@ nav .show {
 }
 
 .why-jumbotron {
-  margin-bottom: 40px;
 }
 
 .events-jumbotron {
+}
+
+.signup-jumbotron {
+  display: none;
 }
 
 /*------------------------------------------------Cards */
@@ -410,7 +423,7 @@ nav .show {
 /*------------------------------------------------Newsletter signup form */
 
 .newsletter-signup-section {
-  padding: 30px;
+  padding: 15px 30px 30px 30px;
   color: #e2e2e2;
   border-radius: 3rem;
   border: solid 3px rgba(12, 28, 49, 1);
@@ -433,6 +446,10 @@ nav .show {
 .signup-form-item p {
   margin-bottom: 8px;
   text-decoration: underline;
+}
+
+.newsletter-signup-section h1 {
+  text-align: center;
 }
 
 /*------------------------------------------------Modals */
@@ -651,6 +668,20 @@ nav .show {
     -o-object-position: center center;
     object-position: center center;
     overflow: hidden;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .jumbotron {
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  .signup-jumbotron {
+    display: block;
+  }
+  .newsletter-signup-section h1,
+  .newsletter-signup-section hr {
+    display: none;
   }
 }
 
