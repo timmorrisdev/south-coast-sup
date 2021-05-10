@@ -113,11 +113,11 @@ h3 {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #1236a0;
+  color: #b13613;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #1236a0;
+  color: #b13613;
 }
 
 .navbar-nav a {
@@ -520,7 +520,7 @@ nav .show {
 }
 
 .footer-container a i:hover {
-  color: #1236a0;
+  color: #b13613;
   font-size: 30px;
 }
 
@@ -616,7 +616,7 @@ footer .btn-signup {
 /*------------------------------------------------Hover.css */
 
 .hvr-underline-from-center::before {
-  background: #1236a0;
+  background: #b13613;
   height: 1px;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
