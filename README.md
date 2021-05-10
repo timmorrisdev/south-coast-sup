@@ -4,7 +4,7 @@ ___
 ## Project Synopsis
 
 
-Stand-up paddleboard club based on the south coast with the goal of providing information and connecting local surfers and stand up paddleboarders. 
+Stand Up Paddle-board club based on the south coast with the goal of providing information and connecting local surfers and stand up paddleboarders. 
 Will have details of regular meet-ups, information on the local area and the ability to sign up to a newsletter. 
 
 [See the live site here!](https://timmorrisdev.github.io/south-coast-sup/)
@@ -15,9 +15,9 @@ ___
 ### User Stories
 
 - First time user goals
-    1. As a first time user, I want to easily gain information about the local paddleboard community.
+    1. As a first time user, I want to easily gain information about the local paddle-board community.
     2. As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
-    3. As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
+    3. As a first time user, I want to find out where I can paddle-board in the local area and advice on the best times to go.
     4. As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
 
 - Second time user goals
@@ -30,12 +30,12 @@ ___
 ### Business Goals
 
 - Immediate
-    1. To create a paddlebaord community and provide information.
+    1. To create a paddle-baord community and provide information.
     2. To gain subscriptions to the newsletter.
     3. To attract people to take part in organised events, both paid and free.
 
 - Future goals
-    1. To gain sponsorship  from local business and paddleboard brands.
+    1. To gain sponsorship  from local business and paddle-board brands.
     2. To drive up social media followers and engagement to both build the club visibility and attract partnerships with brands. 
 
 ### Design
@@ -52,29 +52,29 @@ ___
     - [About the club](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/About.png)
     - [Why / Where / Event pages](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Why_%20_%20Where%20_%20Events%20pages.png)
     - [Signup page](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/wireframes/Signup.png)
-### Design Descisions Made During Development
+### Design Decisions Made During Development
 - Landing Page 'Call-To-Action' section
-    - I chose to further develop the club ethos section on the home/landing page to include buttons directing the user to key areas of the site. This is to inprove the user experience and also to prevent any first time user from navigating away from the page before finding what they require.
+    - I chose to further develop the club ethos section on the home/landing page to include buttons directing the user to key areas of the site. This is to improve the user experience and also to prevent any first time user from navigating away from the page before finding what they require.
 
  - 'Where to SUP' page
-    - After arranging the page into three cards, as per the wireframe, I found the content too much to show while trying to keep a streamlined and clutter-free user experience. I made the descision to utilise a nav instead of the cards, allowing me to display more detailed information for each location while maintaining a clear layout. This design also leaves room for future development as adding more locations as the club grows will not take up more real-estate on the page.
+    - After arranging the page into three cards, as per the wireframe, I found the content too much to show while trying to keep a streamlined and clutter-free user experience. I made the decision to utilise a nav instead of the cards, allowing me to display more detailed information for each location while maintaining a clear layout. This design also leaves room for future development as adding more locations as the club grows will not take up more real-estate on the page.
 
 - Event Registration Modals
-    - Having built the events page, I needed a way of the user registering their interest in a parcicular event without directing them to a further page and interrupting their jouney through the site. I settled on using a modal containing the resigtration form to achieve this. The information entered will be delivered to the Code Institute form-dump server.     
+    - Having built the events page, I needed a way of the user registering their interest in a particular event without directing them to a further page and interrupting their journey through the site. I settled on using a modal containing the registration form to achieve this. The information entered will be delivered to the Code Institute form-dump server.     
 
 - Colour Scheme
     - I found a couple of my suggested colours a little too bold for my vision for the site. While keeping fairly close to the colour scheme detailed in the previous section, I was able to use the colour picker in Google dev tools to adjust the shades being used to achieve a more relaxed colour theme across the site. 
 
 ### Future Development Opportunities
 - Updating The 'Where To SUP' Page
-    - As the club grows, I anticipate more locations being added to the 'where to SUP' page. There is opportunity to create an interactive map with a search function that would allow the user to easily see a whole host of local places to participate in the sport.Along with their geographical location in relation to each other. 
+    - As the club grows, I anticipate more locations being added to the 'where to SUP' page. There is opportunity to create an interactive map with a search function that would allow the user to easily see a whole host of local places to participate in the sport. Along with their geographical location in relation to each other. 
     
         This is beyond the scope of this project, but something I would look to do in the future.
 ___
 ## Features
 - Responsive across all devices and screen sizes.
 - Adaptive to modify content shown to be appropriate for user device or screen size.
-- Have appropraite, real-time information for the user.
+- Have appropriate, real-time information for the user.
 
 
 ___
@@ -112,7 +112,7 @@ ___
 I used the W3C Markup and CSS Validator Services to check and validate each page throughout the site to check for errors. 
 #### [Markup Validation Service](https://validator.w3.org/)
 - 'Name' attributes on 'option' elements obsolete.
-    - Across the site, I had included name attributes on 'option' elements. This was fixed by removing these attibtutes from the affected forms and only using the name attribute on the parent 'select' element in each case.
+    - Across the site, I had included name attributes on 'option' elements. This was fixed by removing these attributes from the affected forms and only using the name attribute on the parent 'select' element in each case.
 
 - 'Frameborder' attribute on 'iFrame' elements obsolete. 
     - When copying the code from windy.com to embed the wind-conditions feature on where.html, the embed code had included a 'frameborder' attribute. This needed to be removed for the code to pass validation. 
@@ -121,11 +121,11 @@ I used the W3C Markup and CSS Validator Services to check and validate each page
 - CSS code passed validation. 
 
 ### Lighthouse Testing
-I used Lighthouse performance reports genrated in Google dev tools during the later stages of site development to identfiy any areas that I could improve the performance, accessibility, best practices and SEO across the site. 
+I used Lighthouse performance reports generated in Google dev tools during the later stages of site development to identify any areas that I could improve the performance, accessibility, best practices and SEO across the site. 
 
 Issues identified and actions taken:
 - Large image files slowing down performance.
-    - I fould that my background image and imagees displayed in other areas of the site were too large and affecting performance. By using [tinypng.com](https://tinypng.com/) I was able reduce the files sizes and fix the performance issue.
+    - I found that my background image and images displayed in other areas of the site were too large and affecting performance. By using [tinypng.com](https://tinypng.com/) I was able reduce the files sizes and fix the performance issue.
 
 - Headings not arranged in a sequentially-descending order.
     - Due to my use of some code copied from the Bootstrap documentation, my heading elements were not sequential in their order. I was able to change this in my HTML and override the bootstrap styling using CSS to keep the styles and sizing as I wanted across the site.
@@ -138,14 +138,14 @@ Issues identified and actions taken:
 
 ### Testing UX user stories
 - First time user goals
-    1. As a first time user, I want to easily gain information about the local paddleboard community.
+    1. As a first time user, I want to easily gain information about the local paddle-board community.
         - I was able to find that there is an active community in the area that encourages group participation and social events, both on and off the water. [About page screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/about.png)
     2. As a first time user, I want to easily find information about the sport and some of the benefits to taking part.
         - I found several examples of reasons to participate in the sport as well as some positive results I may see from doing so. [Why SUP? Screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/reasons.png)
-    3. As a first time user, I want to find out where I can paddleboard in the local area and advice on the best times to go.
-        - There were several examples of places in the local area to paddlebaord and it was easy to see the real-time conditions at each as well as a google maps link to easily locate the places being referenced. [Locations screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/locations.png)
+    3. As a first time user, I want to find out where I can paddle-board in the local area and advice on the best times to go.
+        - There were several examples of places in the local area to paddle-baord and it was easy to see the real-time conditions at each as well as a google maps link to easily locate the places being referenced. [Locations screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/locations.png)
     4. As I first time user, I want the option of signing up to a newsletter to receive updates on club activities.
-        - I was promped to sign up to the newsletter to receive regular updates and there were easy-to-see buttons across the site to link to where I could sign up. [Newsletter signup screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/newsletter.png)
+        - I was prompted to sign up to the newsletter to receive regular updates and there were easy-to-see buttons across the site to link to where I could sign up. [Newsletter signup screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/newsletter.png)
 
 - Second time user goals
     1. As a returning user, I want to be able to connect with the clubs social media pages.
@@ -155,10 +155,10 @@ Issues identified and actions taken:
 
 - Frequent user goals
     1. As a frequent user, I want to easily navigate the site to find information about meet-ups and events.
-        - The events page allowed me to see what oranised group events were upcoming and it was easy to register me and my friends to take part. [Events screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/events.png)
+        - The events page allowed me to see what organised group events were upcoming and it was easy to register me and my friends to take part. [Events screenshot](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/events.png)
 
 ### Peer Code Review
-I posted my project to the 'peer-code-review' channel on Slack a recieved somehelpful feedback that I was able to impliment before sumbitting the project.
+I posted my project to the 'peer-code-review' channel on Slack a recieved some helpful feedback that I was able to implement before submitting the project.
 - Unnecessary scroll bars visible on about section text.
     - At an earlier development stage, I was using the CSS rule 'overflow: scroll;' to ensure all the text content on the about page was visible. I decided to ensure the text was contained within each section rather than have the user scroll to reveal. On some devices the scroll bars were still visible. The problem was fixed by removing the, now unused, CSS rule. 
 - Navbar and footer obscuring page content on some devices.
@@ -177,19 +177,19 @@ I tested the site across multiple devices using different browsers.
     - iPhone 12
     - iPad air 2
 
-The only issue I found was that the buttons across the site were not displaying correctly. This was fixed by switching out any 'button' elements with 'a' elements and then styling accordingly. A screen grab of the issue can be seen [here]()
+The only issue I found was that the buttons across the site were not displaying correctly. This was fixed by switching out any 'button' elements with 'a' elements and then styling accordingly. A screen grab of the issue can be seen [here.](https://github.com/TimMorrisDev/south-coast-sup/blob/master/assets/screenshots/iOS%20button%20issue.PNG)
 
 ___
 ## Deployment
 ### GitHub Pages
 The project was deployed to GitHub pages using the following method. 
-1. Log in to [GitHub.com](https://github.com/) and locate the south-coast-sup reposotory in my account.
-2. Selct the repo 'settings' menu and navigate to the 'pages' tab on the left hand side.
-3. In the 'source' section, select the master branch as the source for the site deployemnt. 
-4. Hit 'save' and wait a few mins for GitHub to process. The 'pages' settings tab will now show a message to confirm the reposotory is being published to the address https://timmorrisdev.github.io/south-coast-sup/.
+1. Log in to [GitHub.com](https://github.com/) and locate the south-coast-sup repository in my account.
+2. Select the repo 'settings' menu and navigate to the 'pages' tab on the left hand side.
+3. In the 'source' section, select the master branch as the source for the site deployment. 
+4. Hit 'save' and wait a few mins for GitHub to process. The 'pages' settings tab will now show a message to confirm the repository is being published to the address https://timmorrisdev.github.io/south-coast-sup/.
 
-### Forking the reposotory in GitHub
-Forking the repository creates a copy of the original repository in your own account to allow chages to be made without affecting the original repository.
+### Forking the repository in GitHub
+Forking the repository creates a copy of the original repository in your own account to allow changes to be made without affecting the original repository.
 1. Log in to GitHub and navigate to the GitHub repository page.
 2. In the top-right of the page, below the user avatar, locate the "fork" button.
 3. Click the "fork" button and you should now have a copy of the repository in your own account. 

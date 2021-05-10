@@ -639,6 +639,10 @@ footer .btn-signup {
   width: 50%;
 }
 
+.text-white {
+  color: #fff;
+}
+
 /*------------------------------------------------Hover.css */
 
 .hvr-underline-from-center::before {
