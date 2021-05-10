@@ -17,6 +17,8 @@ body {
   height: 100vh;
 }
 
+/* Background image opacicy code inspired from ccstricks article  https://css-tricks.com/snippets/css/transparent-background-images/ */
+
 body::after {
   content: "";
   background: url(../images/pexels-sebastian-voortman-165505.jpg);
@@ -39,6 +41,7 @@ h1 {
   font-size: 2rem;
   color: #fff;
   text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 h2 {
@@ -73,6 +76,7 @@ h3 {
 }
 
 .where-container {
+  /* padding-top: 15px; */
   padding-bottom: 200px;
 }
 
@@ -86,11 +90,9 @@ h3 {
 /*------------------------------------------------Navbar */
 
 .navbar {
-  /* background-color: rgba(12, 28, 49, 0.9); */
   text-align: center;
   padding: 0rem 1rem;
   border-bottom: solid 3px rgba(12, 28, 49, 1);
-  /* padding-left: 15px; */
   padding: 10px 0 10px 0;
 }
 
@@ -100,18 +102,32 @@ h3 {
 
 .navbar-brand {
   margin-left: 15px;
+  font-weight: 500;
 }
+
+.navbar-light .navbar-brand {
+  color: #0e2542;
+}
+
+/* .navbar-light .navbar-brand:hover {
+  color: #004ead;
+} */
 
 .navbar-toggler {
   margin-right: 15px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: #c0c0c0;
+.navbar-light .navbar-nav .nav-link {
+  color: #0e2542;
+  font-weight: 500;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #fff;
+.navbar-light .navbar-nav .nav-link.active {
+  color: #004ead;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #004ead;
 }
 
 .navbar-nav a {
@@ -123,7 +139,7 @@ nav .collapsing,
 nav .show {
   line-height: 2rem;
   font-size: 1.2rem;
-  background-color: #102c4e;
+  background-color: #989898;
 }
 
 .nav-link {
@@ -140,9 +156,10 @@ nav .show {
   /* font-size: 2rem; */
 }
 
-.navbar-dark .navbar-toggler {
-  color: #fff;
-  border-color: #e2e2e2;
+.navbar-light .navbar-toggler {
+  color: #0e2542;
+  border-color: #0e2542;
+  border-width: 2px;
 }
 
 /*------------------------------------------------Jumbotrons */
@@ -166,6 +183,10 @@ nav .show {
 }
 
 .why-jumbotron {
+}
+
+.where-jumbotron {
+  display: none;
 }
 
 .events-jumbotron {
@@ -252,9 +273,9 @@ nav .show {
   padding-bottom: 0px;
 }
 
-.about-card .card-body {
+/* .about-card .card-body {
   overflow: scroll;
-}
+} */
 
 .about-card-container {
   height: -webkit-fit-content;
@@ -356,6 +377,10 @@ nav .show {
   font-weight: 400;
 }
 
+.where-nav-heading {
+  margin-bottom: 25px;
+}
+
 .tab-content {
   padding-top: 10px;
 }
@@ -423,6 +448,7 @@ nav .show {
 /*------------------------------------------------Newsletter signup form */
 
 .newsletter-signup-section {
+  margin-top: 25px;
   padding: 15px 30px 30px 30px;
   color: #e2e2e2;
   border-radius: 3rem;
@@ -446,10 +472,6 @@ nav .show {
 .signup-form-item p {
   margin-bottom: 8px;
   text-decoration: underline;
-}
-
-.newsletter-signup-section h1 {
-  text-align: center;
 }
 
 /*------------------------------------------------Modals */
@@ -515,7 +537,7 @@ nav .show {
 }
 
 .footer-container a i {
-  color: #c0c0c0;
+  color: #0e2542;
   font-size: 25px;
   text-align: center;
   width: 35px;
@@ -528,7 +550,7 @@ nav .show {
 }
 
 .footer-container a i:hover {
-  color: #fff;
+  color: #004ead;
   font-size: 30px;
 }
 
@@ -563,6 +585,10 @@ nav .show {
   box-shadow: none;
 }
 
+footer .btn-signup {
+  border-color: #0e2542;
+}
+
 /*------------------------------------------------ Colours */
 
 .bg-color__sunset {
@@ -574,11 +600,15 @@ nav .show {
 }
 
 .bg-color__blue-opaque {
-  background-color: #102c4ee1;
+  background-color: #102c4ef7;
 }
 
 .bg-color__blue-solid {
   background-color: #0e2542;
+}
+
+.bg-color__dark-grey {
+  background-color: #a9a9a9;
 }
 
 /*------------------------------------------------block dividers */
@@ -612,7 +642,7 @@ nav .show {
 /*------------------------------------------------Hover.css */
 
 .hvr-underline-from-center::before {
-  background: #e2e2e2;
+  background: #004ead;
   height: 1px;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -676,12 +706,14 @@ nav .show {
     margin-bottom: 30px;
     margin-top: 5px;
   }
-  .signup-jumbotron {
-    display: block;
-  }
-  .newsletter-signup-section h1,
-  .newsletter-signup-section hr {
+  .where-jumbotron {
     display: none;
+  }
+  .where-container {
+    padding-top: 30px;
+  }
+  .where-nav-heading {
+    margin-bottom: 25px;
   }
 }
 
@@ -718,4 +750,10 @@ nav .show {
   .why-card .card-body {
     height: 320px;
   }
+  /* .newsletter-signup-heading {
+    display: none;
+  }
+  .signup-jumbotron {
+    display: block;
+  } */
 }
