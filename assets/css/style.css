@@ -64,9 +64,6 @@ h3 {
   overflow: scroll;
 }
 
-.landing-container {
-}
-
 .about-container {
   padding-bottom: 200px;
 }
@@ -78,9 +75,6 @@ h3 {
 .where-container {
   /* padding-top: 15px; */
   padding-bottom: 200px;
-}
-
-.events-container {
 }
 
 .signup-container {
@@ -109,10 +103,6 @@ h3 {
   color: #0e2542;
 }
 
-/* .navbar-light .navbar-brand:hover {
-  color: #004ead;
-} */
-
 .navbar-toggler {
   margin-right: 15px;
 }
@@ -123,11 +113,11 @@ h3 {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-  color: #1f487e;
+  color: #1236a0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #1f487e;
+  color: #1236a0;
 }
 
 .navbar-nav a {
@@ -147,13 +137,6 @@ nav .show {
   -moz-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
-}
-
-#navbarNavDropdown {
-}
-
-#navbarNavDropdown a {
-  /* font-size: 2rem; */
 }
 
 .navbar-light .navbar-toggler {
@@ -179,17 +162,8 @@ nav .show {
   color: #e2e2e2;
 }
 
-.landing-jumbotron {
-}
-
-.why-jumbotron {
-}
-
 .where-jumbotron {
   display: none;
-}
-
-.events-jumbotron {
 }
 
 .signup-jumbotron {
@@ -272,10 +246,6 @@ nav .show {
 .about-card {
   padding-bottom: 0px;
 }
-
-/* .about-card .card-body {
-  overflow: scroll;
-} */
 
 .about-card-container {
   height: -webkit-fit-content;
@@ -550,7 +520,7 @@ nav .show {
 }
 
 .footer-container a i:hover {
-  color: #1f487e;
+  color: #1236a0;
   font-size: 30px;
 }
 
@@ -608,7 +578,7 @@ footer .btn-signup {
 }
 
 .bg-color__dark-grey {
-  background-color: #a9a9a9;
+  background-color: #b8b8b8;
 }
 
 /*------------------------------------------------block dividers */
@@ -646,7 +616,7 @@ footer .btn-signup {
 /*------------------------------------------------Hover.css */
 
 .hvr-underline-from-center::before {
-  background: #1f487e;
+  background: #1236a0;
   height: 1px;
   transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -754,10 +724,4 @@ footer .btn-signup {
   .why-card .card-body {
     height: 320px;
   }
-  /* .newsletter-signup-heading {
-    display: none;
-  }
-  .signup-jumbotron {
-    display: block;
-  } */
 }
